@@ -33,6 +33,14 @@
     }
   }
 
+  .header-title {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
   h1 {
     font-family: var(--font-display);
     font-size: clamp(1.6rem, 4vw, 2.4rem);
@@ -41,10 +49,31 @@
     margin-bottom: 8px;
   }
 
-  > p {
+  > .header-title > div > p {
     font-size: 1rem;
     color: var(--text-secondary);
     font-weight: 300;
+  }
+
+  .btn-select-all {
+    flex-shrink: 0;
+    background: transparent;
+    border: 1px solid var(--border-strong);
+    color: var(--text-secondary);
+    padding: 8px 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-family: var(--font-body);
+    font-weight: 500;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+
+    &:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: var(--accent-light);
+    }
   }
 }
 

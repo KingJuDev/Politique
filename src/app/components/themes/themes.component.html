@@ -1,8 +1,15 @@
 <div class="themes-container">
   <div class="header">
     <button class="btn-back" (click)="goBack()">← Retour</button>
-    <h1>Sélectionnez les thèmes 🎯</h1>
-    <p>Choisissez au moins {{ minThemesRequired }} thèmes pour continuer</p>
+    <div class="header-title">
+      <div>
+        <h1>Sélectionnez les thèmes 🎯</h1>
+        <p>Choisissez au moins {{ minThemesRequired }} thèmes pour continuer</p>
+      </div>
+      <button class="btn-select-all" (click)="toggleSelectAll()">
+        {{ allSelected ? 'Tout désélectionner' : 'Tout sélectionner' }}
+      </button>
+    </div>
   </div>
 
   <div class="themes-grid">

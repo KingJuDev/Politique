@@ -188,7 +188,7 @@ export class QuestionsComponent implements OnInit, OnDestroy {
   quit(): void {
     if (confirm('Êtes-vous sûr de vouloir quitter le quiz? Vos réponses seront perdues.')) {
       this.userStateService.resetState();
-      this.router.navigate(['/home']);
+      this.router.navigate(['/']);
     }
   }
 }

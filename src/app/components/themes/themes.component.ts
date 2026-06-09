@@ -40,6 +40,18 @@ export class ThemesComponent implements OnInit {
     }
   }
 
+  get allSelected(): boolean {
+    return this.themes.length > 0 && this.selectedThemes.size === this.themes.length;
+  }
+
+  toggleSelectAll(): void {
+    if (this.allSelected) {
+      this.themes.forEach(t => this.userStateService.deselectTheme(t.id));
+    } else {
+      this.themes.forEach(t => this.userStateService.selectTheme(t.id));
+    }
+  }
+
   /**
    * Vérifie si un thème est sélectionné
    */
@@ -81,6 +93,6 @@ export class ThemesComponent implements OnInit {
    * Revient à la page d'accueil
    */
   goBack(): void {
-    this.router.navigate(['/home']);
+    this.router.navigate(['/']);
   }
 }
