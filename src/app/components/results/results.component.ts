@@ -5,9 +5,10 @@ import { UserStateService } from '../../services/user-state.service';
 import { ScoreService } from '../../services/score.service';
 
 @Component({
-  selector: 'app-results',
-  templateUrl: './results.component.html',
-  styleUrls: ['./results.component.scss']
+    selector: 'app-results',
+    templateUrl: './results.component.html',
+    styleUrls: ['./results.component.scss'],
+    standalone: false
 })
 export class ResultsComponent implements OnInit {
 
