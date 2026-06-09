@@ -15,9 +15,9 @@ export class HomeComponent {
   selectedLength: QuizLength = 'medium';
 
   readonly quizModes: { length: QuizLength; label: string; questions: number; duration: string; description: string; icon: string }[] = [
-    { length: 'short', label: 'Court', questions: 30, duration: '~15 min', description: 'Les questions essentielles', icon: '⚡' },
-    { length: 'medium', label: 'Moyen', questions: 60, duration: '~30 min', description: 'Un panorama complet', icon: '📊' },
-    { length: 'long', label: 'Long', questions: 90, duration: '~45 min', description: 'Analyse exhaustive', icon: '🔬' }
+    { length: 'short', label: 'Court', questions: 30, duration: '~10 min', description: 'Les questions essentielles', icon: '⚡' },
+    { length: 'medium', label: 'Moyen', questions: 60, duration: '~20 min', description: 'Un panorama complet', icon: '📊' },
+    { length: 'long', label: 'Long', questions: 90, duration: '~30 min', description: 'Analyse exhaustive', icon: '🔬' }
   ];
 
   constructor(
