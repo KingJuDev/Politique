@@ -27,6 +27,9 @@ export class ThemesComponent implements OnInit {
     this.userStateService.userState$.subscribe(state => {
       this.selectedThemes = new Set(state.selectedThemes);
     });
+    if (this.userStateService.getSelectedThemes().length === 0) {
+      this.themes.forEach(t => this.userStateService.selectTheme(t.id));
+    }
   }
 
   /**
