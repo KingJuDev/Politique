@@ -1,0 +1,1008 @@
+[
+  {
+    "id": "q_econ_01",
+    "themeId": "theme_economy",
+    "importance": 1,
+    "text": "Le SMIC doit-il être porté à 1 600 € net immédiatement ?",
+    "options": [
+      { "id": "q_econ_01_o1", "text": "Oui, c'est une urgence sociale", "positions": { "lfi": 5, "ps": 3, "eelv": 4, "renaissance": -2, "horizons": -2, "lr": -4, "rn": 2 } },
+      { "id": "q_econ_01_o2", "text": "Oui, mais progressivement sur le mandat", "positions": { "lfi": 2, "ps": 4, "eelv": 3, "renaissance": 0, "horizons": 0, "lr": -2, "rn": 1 } },
+      { "id": "q_econ_01_o3", "text": "Non, indexer le SMIC sur l'inflation suffit", "positions": { "lfi": -2, "ps": 1, "eelv": 0, "renaissance": 3, "horizons": 4, "lr": 2, "rn": 2 } },
+      { "id": "q_econ_01_o4", "text": "Non, une hausse brutale détruirait des emplois", "positions": { "lfi": -5, "ps": -2, "eelv": -2, "renaissance": 2, "horizons": 3, "lr": 5, "rn": -1 } }
+    ]
+  },
+  {
+    "id": "q_econ_02",
+    "themeId": "theme_economy",
+    "importance": 1,
+    "text": "À quel âge doit-on pouvoir partir à la retraite ?",
+    "options": [
+      { "id": "q_econ_02_o1", "text": "À 60 ans pour tous après 40 annuités", "positions": { "lfi": 5, "ps": 0, "eelv": 2, "renaissance": -3, "horizons": -5, "lr": -4, "rn": 5 } },
+      { "id": "q_econ_02_o2", "text": "À 62 ans, avec souplesse pour les carrières longues", "positions": { "lfi": 1, "ps": 3, "eelv": 3, "renaissance": -1, "horizons": -3, "lr": -2, "rn": 1 } },
+      { "id": "q_econ_02_o3", "text": "À 64 ans comme la loi actuelle", "positions": { "lfi": -3, "ps": -1, "eelv": -1, "renaissance": 3, "horizons": 3, "lr": 3, "rn": -3 } },
+      { "id": "q_econ_02_o4", "text": "À 67 ans pour assurer l'équilibre financier", "positions": { "lfi": -5, "ps": -3, "eelv": -3, "renaissance": 2, "horizons": 5, "lr": 4, "rn": -5 } }
+    ]
+  },
+  {
+    "id": "q_econ_03",
+    "themeId": "theme_economy",
+    "importance": 1,
+    "text": "Quelle doit être la durée légale du temps de travail hebdomadaire ?",
+    "options": [
+      { "id": "q_econ_03_o1", "text": "32h sans perte de salaire", "positions": { "lfi": 5, "ps": 2, "eelv": 4, "renaissance": -3, "horizons": -4, "lr": -5, "rn": -2 } },
+      { "id": "q_econ_03_o2", "text": "Maintenir les 35h actuelles", "positions": { "lfi": 2, "ps": 4, "eelv": 3, "renaissance": -1, "horizons": -2, "lr": -4, "rn": 1 } },
+      { "id": "q_econ_03_o3", "text": "Assouplir les 35h sans les supprimer", "positions": { "lfi": -2, "ps": 0, "eelv": -1, "renaissance": 3, "horizons": 3, "lr": 1, "rn": 2 } },
+      { "id": "q_econ_03_o4", "text": "Supprimer les 35h et libéraliser la négociation", "positions": { "lfi": -5, "ps": -3, "eelv": -3, "renaissance": 2, "horizons": 5, "lr": 5, "rn": 1 } }
+    ]
+  },
+  {
+    "id": "q_econ_04",
+    "themeId": "theme_economy",
+    "importance": 1,
+    "text": "Comment faut-il faire évoluer la fiscalité des grandes entreprises ?",
+    "options": [
+      { "id": "q_econ_04_o1", "text": "Augmenter significativement l'impôt sur les sociétés", "positions": { "lfi": 5, "ps": 3, "eelv": 4, "renaissance": -3, "horizons": -3, "lr": -5, "rn": -1 } },
+      { "id": "q_econ_04_o2", "text": "Maintenir le taux actuel et lutter contre l'évasion fiscale", "positions": { "lfi": 1, "ps": 4, "eelv": 3, "renaissance": 2, "horizons": 1, "lr": -1, "rn": 2 } },
+      { "id": "q_econ_04_o3", "text": "Baisser les impôts de production pour relocaliser", "positions": { "lfi": -3, "ps": -1, "eelv": -1, "renaissance": 4, "horizons": 4, "lr": 4, "rn": 3 } },
+      { "id": "q_econ_04_o4", "text": "Supprimer massivement les charges pour créer des emplois", "positions": { "lfi": -5, "ps": -3, "eelv": -4, "renaissance": 2, "horizons": 3, "lr": 5, "rn": 0 } }
+    ]
+  },
+  {
+    "id": "q_econ_05",
+    "themeId": "theme_economy",
+    "importance": 1,
+    "text": "L'État doit-il bloquer les prix des produits alimentaires de première nécessité ?",
+    "options": [
+      { "id": "q_econ_05_o1", "text": "Oui, un blocage immédiat des prix est nécessaire", "positions": { "lfi": 5, "ps": 2, "eelv": 2, "renaissance": -3, "horizons": -3, "lr": -5, "rn": 3 } },
+      { "id": "q_econ_05_o2", "text": "Oui, un encadrement partiel des marges des distributeurs", "positions": { "lfi": 3, "ps": 4, "eelv": 3, "renaissance": 1, "horizons": 1, "lr": -2, "rn": 3 } },
+      { "id": "q_econ_05_o3", "text": "Non, le marché régule mieux que l'État", "positions": { "lfi": -4, "ps": -2, "eelv": -2, "renaissance": 3, "horizons": 4, "lr": 5, "rn": -2 } }
+    ]
+  },
+  {
+    "id": "q_econ_06",
+    "themeId": "theme_economy",
+    "importance": 2,
+    "text": "Faut-il instaurer un revenu universel de base pour tous les citoyens ?",
+    "options": [
+      { "id": "q_econ_06_o1", "text": "Oui, un revenu universel inconditionnel dès 18 ans", "positions": { "lfi": 4, "ps": 2, "eelv": 4, "renaissance": -1, "horizons": -2, "lr": -4, "rn": -2 } },
+      { "id": "q_econ_06_o2", "text": "Oui, mais sous forme de revenu d'activité conditionné", "positions": { "lfi": -1, "ps": 3, "eelv": 1, "renaissance": 2, "horizons": 2, "lr": 3, "rn": 1 } },
+      { "id": "q_econ_06_o3", "text": "Non, cela désincitera au travail et coûtera trop cher", "positions": { "lfi": -3, "ps": -2, "eelv": -1, "renaissance": 2, "horizons": 3, "lr": 4, "rn": 2 } }
+    ]
+  },
+  {
+    "id": "q_econ_07",
+    "themeId": "theme_economy",
+    "importance": 2,
+    "text": "L'État doit-il nationaliser les secteurs stratégiques (énergie, eau, transports) ?",
+    "options": [
+      { "id": "q_econ_07_o1", "text": "Oui, les nationaliser intégralement", "positions": { "lfi": 5, "ps": 2, "eelv": 3, "renaissance": -3, "horizons": -3, "lr": -5, "rn": -1 } },
+      { "id": "q_econ_07_o2", "text": "Oui, renforcer la participation publique sans nationaliser totalement", "positions": { "lfi": 2, "ps": 4, "eelv": 3, "renaissance": 1, "horizons": 1, "lr": -2, "rn": 2 } },
+      { "id": "q_econ_07_o3", "text": "Non, mieux réguler les marchés sans nationaliser", "positions": { "lfi": -2, "ps": 1, "eelv": 0, "renaissance": 4, "horizons": 4, "lr": 3, "rn": 2 } },
+      { "id": "q_econ_07_o4", "text": "Non, les privatiser davantage pour plus d'efficacité", "positions": { "lfi": -5, "ps": -3, "eelv": -4, "renaissance": 2, "horizons": 2, "lr": 4, "rn": -1 } }
+    ]
+  },
+  {
+    "id": "q_econ_08",
+    "themeId": "theme_economy",
+    "importance": 2,
+    "text": "Les heures supplémentaires doivent-elles être défiscalisées et exonérées de cotisations ?",
+    "options": [
+      { "id": "q_econ_08_o1", "text": "Non, cela favorise les profits au détriment des embauches", "positions": { "lfi": 4, "ps": 2, "eelv": 3, "renaissance": -2, "horizons": -1, "lr": -3, "rn": -2 } },
+      { "id": "q_econ_08_o2", "text": "Oui partiellement, pour augmenter le pouvoir d'achat", "positions": { "lfi": -2, "ps": 1, "eelv": -1, "renaissance": 3, "horizons": 3, "lr": 3, "rn": 3 } },
+      { "id": "q_econ_08_o3", "text": "Oui totalement, pour récompenser le travail", "positions": { "lfi": -4, "ps": -2, "eelv": -3, "renaissance": 2, "horizons": 4, "lr": 5, "rn": 3 } }
+    ]
+  },
+  {
+    "id": "q_econ_09",
+    "themeId": "theme_economy",
+    "importance": 2,
+    "text": "Comment financer le système de retraites par répartition ?",
+    "options": [
+      { "id": "q_econ_09_o1", "text": "Augmenter les cotisations des employeurs et salariés", "positions": { "lfi": 4, "ps": 3, "eelv": 3, "renaissance": -2, "horizons": -2, "lr": -3, "rn": 1 } },
+      { "id": "q_econ_09_o2", "text": "Élargir l'assiette des cotisations aux revenus financiers", "positions": { "lfi": 5, "ps": 4, "eelv": 4, "renaissance": -1, "horizons": -2, "lr": -4, "rn": -1 } },
+      { "id": "q_econ_09_o3", "text": "Allonger progressivement la durée de cotisation", "positions": { "lfi": -3, "ps": -1, "eelv": -2, "renaissance": 3, "horizons": 4, "lr": 4, "rn": -3 } },
+      { "id": "q_econ_09_o4", "text": "Introduire une part de capitalisation collective", "positions": { "lfi": -5, "ps": -2, "eelv": -3, "renaissance": 3, "horizons": 4, "lr": 4, "rn": -2 } }
+    ]
+  },
+  {
+    "id": "q_econ_10",
+    "themeId": "theme_economy",
+    "importance": 2,
+    "text": "Faut-il plafonner les aides sociales pour inciter davantage au retour à l'emploi ?",
+    "options": [
+      { "id": "q_econ_10_o1", "text": "Non, les aides ne découragent pas le travail, il faut les améliorer", "positions": { "lfi": 5, "ps": 3, "eelv": 4, "renaissance": -1, "horizons": -1, "lr": -4, "rn": -2 } },
+      { "id": "q_econ_10_o2", "text": "Peut-être, avec un accompagnement renforcé vers l'emploi", "positions": { "lfi": -1, "ps": 2, "eelv": 0, "renaissance": 3, "horizons": 3, "lr": 2, "rn": 2 } },
+      { "id": "q_econ_10_o3", "text": "Oui, plafonner les aides à 70 % du SMIC maximum", "positions": { "lfi": -4, "ps": -2, "eelv": -3, "renaissance": 2, "horizons": 3, "lr": 5, "rn": 2 } }
+    ]
+  },
+  {
+    "id": "q_econ_11",
+    "themeId": "theme_economy",
+    "importance": 3,
+    "text": "L'État doit-il planifier l'économie par des plans nationaux pluriannuels ?",
+    "options": [
+      { "id": "q_econ_11_o1", "text": "Oui, une planification écologique et économique s'impose", "positions": { "lfi": 5, "ps": 2, "eelv": 3, "renaissance": -2, "horizons": -3, "lr": -5, "rn": -1 } },
+      { "id": "q_econ_11_o2", "text": "Oui, pour orienter sans diriger (feuilles de route sectorielles)", "positions": { "lfi": 2, "ps": 3, "eelv": 3, "renaissance": 2, "horizons": 2, "lr": -1, "rn": 1 } },
+      { "id": "q_econ_11_o3", "text": "Non, l'économie de marché reste plus efficace", "positions": { "lfi": -4, "ps": -1, "eelv": -2, "renaissance": 3, "horizons": 3, "lr": 5, "rn": 1 } }
+    ]
+  },
+  {
+    "id": "q_econ_12",
+    "themeId": "theme_economy",
+    "importance": 3,
+    "text": "Faut-il privatiser davantage de services publics pour améliorer leur efficacité ?",
+    "options": [
+      { "id": "q_econ_12_o1", "text": "Non, il faut au contraire renforcer les services publics existants", "positions": { "lfi": 5, "ps": 4, "eelv": 4, "renaissance": -1, "horizons": -1, "lr": -3, "rn": -1 } },
+      { "id": "q_econ_12_o2", "text": "Certains services peuvent être ouverts à la concurrence encadrée", "positions": { "lfi": -3, "ps": -1, "eelv": -2, "renaissance": 3, "horizons": 3, "lr": 3, "rn": 1 } },
+      { "id": "q_econ_12_o3", "text": "Oui, la concurrence privée améliore qualité et coûts", "positions": { "lfi": -5, "ps": -3, "eelv": -4, "renaissance": 2, "horizons": 2, "lr": 5, "rn": -1 } }
+    ]
+  },
+  {
+    "id": "q_econ_13",
+    "themeId": "theme_economy",
+    "importance": 3,
+    "text": "Faut-il rétablir l'ISF (Impôt sur la Fortune) supprimé en 2017 ?",
+    "options": [
+      { "id": "q_econ_13_o1", "text": "Oui, et le renforcer pour financer la transition sociale", "positions": { "lfi": 5, "ps": 3, "eelv": 4, "renaissance": -4, "horizons": -3, "lr": -5, "rn": -2 } },
+      { "id": "q_econ_13_o2", "text": "Oui, sous une forme modernisée ciblant les très grandes fortunes", "positions": { "lfi": 3, "ps": 4, "eelv": 3, "renaissance": -2, "horizons": -2, "lr": -3, "rn": -1 } },
+      { "id": "q_econ_13_o3", "text": "Non, l'IFI sur l'immobilier est suffisant", "positions": { "lfi": -3, "ps": -1, "eelv": -1, "renaissance": 3, "horizons": 3, "lr": 4, "rn": 2 } },
+      { "id": "q_econ_13_o4", "text": "Non, cela ferait fuir les capitaux investisseurs", "positions": { "lfi": -5, "ps": -3, "eelv": -3, "renaissance": 4, "horizons": 3, "lr": 5, "rn": 1 } }
+    ]
+  },
+  {
+    "id": "q_econ_14",
+    "themeId": "theme_economy",
+    "importance": 3,
+    "text": "Faut-il créer des comptes de capitalisation individuels dès la naissance pour préparer la retraite ?",
+    "options": [
+      { "id": "q_econ_14_o1", "text": "Non, cela fragilise la solidarité intergénérationnelle", "positions": { "lfi": 5, "ps": 3, "eelv": 4, "renaissance": -3, "horizons": -3, "lr": -4, "rn": 0 } },
+      { "id": "q_econ_14_o2", "text": "Peut-être, en complément du système par répartition", "positions": { "lfi": -2, "ps": 1, "eelv": -1, "renaissance": 4, "horizons": 4, "lr": 4, "rn": 1 } },
+      { "id": "q_econ_14_o3", "text": "Oui, chaque Français doit gérer son épargne-retraite", "positions": { "lfi": -5, "ps": -2, "eelv": -3, "renaissance": 4, "horizons": 3, "lr": 5, "rn": -1 } }
+    ]
+  },
+  {
+    "id": "q_econ_15",
+    "themeId": "theme_economy",
+    "importance": 3,
+    "text": "Le RSA doit-il être conditionné à 15 à 20 heures d'activité hebdomadaires ?",
+    "options": [
+      { "id": "q_econ_15_o1", "text": "Non, les bénéficiaires font face à des obstacles réels à l'emploi", "positions": { "lfi": 5, "ps": 2, "eelv": 4, "renaissance": -1, "horizons": -2, "lr": -4, "rn": -3 } },
+      { "id": "q_econ_15_o2", "text": "Oui, avec un accompagnement renforcé et non punitif", "positions": { "lfi": -1, "ps": 3, "eelv": 0, "renaissance": 4, "horizons": 4, "lr": 3, "rn": 3 } },
+      { "id": "q_econ_15_o3", "text": "Oui, et supprimer le RSA après refus d'emplois répétés", "positions": { "lfi": -5, "ps": -2, "eelv": -3, "renaissance": 2, "horizons": 3, "lr": 5, "rn": 3 } }
+    ]
+  },
+
+  {
+    "id": "q_ecol_01",
+    "themeId": "theme_ecology",
+    "importance": 1,
+    "text": "Quelle doit être la place du nucléaire dans le mix énergétique français ?",
+    "options": [
+      { "id": "q_ecol_01_o1", "text": "Sortir du nucléaire progressivement d'ici 2050", "positions": { "lfi": 4, "ps": 1, "eelv": 5, "renaissance": -4, "horizons": -4, "lr": -4, "rn": -3 } },
+      { "id": "q_ecol_01_o2", "text": "Maintenir le parc actuel sans nouvelles constructions", "positions": { "lfi": 0, "ps": 3, "eelv": -1, "renaissance": -2, "horizons": -1, "lr": -1, "rn": -1 } },
+      { "id": "q_ecol_01_o3", "text": "Construire de nouveaux EPR tout en développant les renouvelables", "positions": { "lfi": -2, "ps": 1, "eelv": -4, "renaissance": 5, "horizons": 4, "lr": 4, "rn": 3 } },
+      { "id": "q_ecol_01_o4", "text": "Miser massivement sur le nucléaire comme pilier climatique", "positions": { "lfi": -4, "ps": -1, "eelv": -5, "renaissance": 3, "horizons": 3, "lr": 4, "rn": 5 } }
+    ]
+  },
+  {
+    "id": "q_ecol_02",
+    "themeId": "theme_ecology",
+    "importance": 1,
+    "text": "À quel horizon la France doit-elle atteindre la neutralité carbone ?",
+    "options": [
+      { "id": "q_ecol_02_o1", "text": "D'ici 2040, avant les objectifs européens", "positions": { "lfi": 3, "ps": 1, "eelv": 5, "renaissance": -2, "horizons": -2, "lr": -4, "rn": -4 } },
+      { "id": "q_ecol_02_o2", "text": "D'ici 2050, comme prévu dans les accords de Paris", "positions": { "lfi": 2, "ps": 4, "eelv": 2, "renaissance": 4, "horizons": 4, "lr": 2, "rn": 1 } },
+      { "id": "q_ecol_02_o3", "text": "L'objectif 2050 est trop coûteux, il faut le réviser", "positions": { "lfi": -3, "ps": -2, "eelv": -4, "renaissance": -1, "horizons": -1, "lr": 3, "rn": 4 } }
+    ]
+  },
+  {
+    "id": "q_ecol_03",
+    "themeId": "theme_ecology",
+    "importance": 1,
+    "text": "La France doit-elle accélérer la sortie des énergies fossiles (charbon, pétrole, gaz) ?",
+    "options": [
+      { "id": "q_ecol_03_o1", "text": "Oui, sortir coûte que coûte d'ici 2030", "positions": { "lfi": 4, "ps": 2, "eelv": 5, "renaissance": -1, "horizons": -2, "lr": -3, "rn": -4 } },
+      { "id": "q_ecol_03_o2", "text": "Oui, mais de façon progressive et socialement accompagnée", "positions": { "lfi": 2, "ps": 4, "eelv": 3, "renaissance": 3, "horizons": 3, "lr": 1, "rn": -1 } },
+      { "id": "q_ecol_03_o3", "text": "Non, les alternatives ne sont pas encore prêtes", "positions": { "lfi": -3, "ps": -2, "eelv": -4, "renaissance": -1, "horizons": 0, "lr": 3, "rn": 4 } }
+    ]
+  },
+  {
+    "id": "q_ecol_04",
+    "themeId": "theme_ecology",
+    "importance": 1,
+    "text": "Faut-il interdire l'usage du glyphosate et des pesticides les plus dangereux ?",
+    "options": [
+      { "id": "q_ecol_04_o1", "text": "Oui, une interdiction totale et immédiate s'impose", "positions": { "lfi": 4, "ps": 3, "eelv": 5, "renaissance": -1, "horizons": -2, "lr": -3, "rn": -2 } },
+      { "id": "q_ecol_04_o2", "text": "Oui, avec une transition de 5 à 10 ans pour les agriculteurs", "positions": { "lfi": 2, "ps": 4, "eelv": 3, "renaissance": 2, "horizons": 2, "lr": 0, "rn": 0 } },
+      { "id": "q_ecol_04_o3", "text": "Non, les agriculteurs doivent rester libres de leurs pratiques", "positions": { "lfi": -4, "ps": -2, "eelv": -5, "renaissance": 1, "horizons": 1, "lr": 3, "rn": 3 } }
+    ]
+  },
+  {
+    "id": "q_ecol_05",
+    "themeId": "theme_ecology",
+    "importance": 2,
+    "text": "Faut-il imposer une transition vers l'agriculture biologique ?",
+    "options": [
+      { "id": "q_ecol_05_o1", "text": "Oui, rendre le bio obligatoire dans les cantines publiques et accompagner la conversion", "positions": { "lfi": 4, "ps": 3, "eelv": 5, "renaissance": 1, "horizons": 0, "lr": -2, "rn": -1 } },
+      { "id": "q_ecol_05_o2", "text": "Encourager financièrement la conversion sans l'imposer", "positions": { "lfi": 2, "ps": 4, "eelv": 3, "renaissance": 3, "horizons": 3, "lr": 2, "rn": 1 } },
+      { "id": "q_ecol_05_o3", "text": "Laisser les agriculteurs choisir leurs pratiques librement", "positions": { "lfi": -3, "ps": -1, "eelv": -4, "renaissance": 2, "horizons": 3, "lr": 4, "rn": 4 } }
+    ]
+  },
+  {
+    "id": "q_ecol_06",
+    "themeId": "theme_ecology",
+    "importance": 2,
+    "text": "Faut-il instaurer un moratoire sur la construction de nouvelles éoliennes ?",
+    "options": [
+      { "id": "q_ecol_06_o1", "text": "Non, les éoliennes sont essentielles à la transition énergétique", "positions": { "lfi": 3, "ps": 3, "eelv": 5, "renaissance": 3, "horizons": 2, "lr": -2, "rn": -5 } },
+      { "id": "q_ecol_06_o2", "text": "Continuer mais mieux encadrer et concerter les implantations", "positions": { "lfi": 1, "ps": 3, "eelv": 2, "renaissance": 4, "horizons": 3, "lr": 1, "rn": -2 } },
+      { "id": "q_ecol_06_o3", "text": "Oui, imposer un moratoire et prioriser le nucléaire", "positions": { "lfi": -3, "ps": -2, "eelv": -5, "renaissance": -1, "horizons": 0, "lr": 3, "rn": 5 } }
+    ]
+  },
+  {
+    "id": "q_ecol_07",
+    "themeId": "theme_ecology",
+    "importance": 2,
+    "text": "La vente de véhicules thermiques neufs doit-elle être interdite d'ici 2035 ?",
+    "options": [
+      { "id": "q_ecol_07_o1", "text": "Oui, voire avant 2035 pour accélérer la transition", "positions": { "lfi": 3, "ps": 2, "eelv": 5, "renaissance": 2, "horizons": 1, "lr": -2, "rn": -4 } },
+      { "id": "q_ecol_07_o2", "text": "Oui, 2035 est un horizon raisonnable à maintenir", "positions": { "lfi": 2, "ps": 4, "eelv": 3, "renaissance": 3, "horizons": 2, "lr": -1, "rn": -3 } },
+      { "id": "q_ecol_07_o3", "text": "Non, repousser ou abandonner cette échéance irréaliste", "positions": { "lfi": -3, "ps": -2, "eelv": -4, "renaissance": 1, "horizons": 1, "lr": 4, "rn": 4 } }
+    ]
+  },
+  {
+    "id": "q_ecol_08",
+    "themeId": "theme_ecology",
+    "importance": 2,
+    "text": "Faut-il instaurer une taxe carbone sur les produits et services polluants ?",
+    "options": [
+      { "id": "q_ecol_08_o1", "text": "Oui, une taxe carbone forte redistribuée aux ménages modestes", "positions": { "lfi": 3, "ps": 3, "eelv": 5, "renaissance": 2, "horizons": 1, "lr": -2, "rn": -4 } },
+      { "id": "q_ecol_08_o2", "text": "Oui, mais en veillant à ne pas pénaliser les classes moyennes", "positions": { "lfi": 1, "ps": 4, "eelv": 3, "renaissance": 3, "horizons": 3, "lr": 0, "rn": -2 } },
+      { "id": "q_ecol_08_o3", "text": "Non, cela frappe surtout les ménages les plus modestes", "positions": { "lfi": 2, "ps": -1, "eelv": -1, "renaissance": 0, "horizons": 0, "lr": 3, "rn": 4 } }
+    ]
+  },
+  {
+    "id": "q_ecol_09",
+    "themeId": "theme_ecology",
+    "importance": 3,
+    "text": "La France doit-elle adopter une stratégie de décroissance économique au nom de l'écologie ?",
+    "options": [
+      { "id": "q_ecol_09_o1", "text": "Oui, la décroissance est indispensable pour préserver la planète", "positions": { "lfi": 2, "ps": -1, "eelv": 5, "renaissance": -4, "horizons": -4, "lr": -5, "rn": -4 } },
+      { "id": "q_ecol_09_o2", "text": "Pas la décroissance mais une croissance soutenable et verte", "positions": { "lfi": 3, "ps": 4, "eelv": 3, "renaissance": 3, "horizons": 2, "lr": 0, "rn": -1 } },
+      { "id": "q_ecol_09_o3", "text": "Non, la croissance économique est nécessaire pour financer la transition", "positions": { "lfi": -2, "ps": 2, "eelv": -3, "renaissance": 4, "horizons": 4, "lr": 5, "rn": 3 } }
+    ]
+  },
+  {
+    "id": "q_ecol_10",
+    "themeId": "theme_ecology",
+    "importance": 3,
+    "text": "Faut-il fortement limiter l'aviation pour réduire les émissions de CO2 ?",
+    "options": [
+      { "id": "q_ecol_10_o1", "text": "Oui, interdire les vols courts avec train alternatif et taxer fortement l'aviation", "positions": { "lfi": 3, "ps": 2, "eelv": 5, "renaissance": -1, "horizons": -2, "lr": -3, "rn": -3 } },
+      { "id": "q_ecol_10_o2", "text": "Interdire les vols court-courriers avec alternative ferroviaire suffisante", "positions": { "lfi": 2, "ps": 3, "eelv": 4, "renaissance": 2, "horizons": 1, "lr": -1, "rn": -2 } },
+      { "id": "q_ecol_10_o3", "text": "Non, miser sur les carburants durables sans restreindre les vols", "positions": { "lfi": -2, "ps": 1, "eelv": -3, "renaissance": 3, "horizons": 3, "lr": 4, "rn": 3 } }
+    ]
+  },
+  {
+    "id": "q_ecol_11",
+    "themeId": "theme_ecology",
+    "importance": 3,
+    "text": "Faut-il mettre fin à l'élevage intensif industriel en France ?",
+    "options": [
+      { "id": "q_ecol_11_o1", "text": "Oui, le bien-être animal et l'écologie imposent une reconversion", "positions": { "lfi": 3, "ps": 2, "eelv": 5, "renaissance": -1, "horizons": -1, "lr": -3, "rn": -2 } },
+      { "id": "q_ecol_11_o2", "text": "Réduire et encadrer l'élevage intensif progressivement", "positions": { "lfi": 2, "ps": 3, "eelv": 3, "renaissance": 2, "horizons": 2, "lr": 0, "rn": 0 } },
+      { "id": "q_ecol_11_o3", "text": "Non, l'élevage intensif est nécessaire pour la souveraineté alimentaire", "positions": { "lfi": -3, "ps": -1, "eelv": -4, "renaissance": 2, "horizons": 2, "lr": 4, "rn": 4 } }
+    ]
+  },
+  {
+    "id": "q_ecol_12",
+    "themeId": "theme_ecology",
+    "importance": 3,
+    "text": "La rénovation thermique des logements doit-elle être rendue obligatoire ?",
+    "options": [
+      { "id": "q_ecol_12_o1", "text": "Oui, avec des aides massives pour les ménages modestes", "positions": { "lfi": 4, "ps": 3, "eelv": 5, "renaissance": 2, "horizons": 2, "lr": 0, "rn": -1 } },
+      { "id": "q_ecol_12_o2", "text": "Oui pour les passoires thermiques, avec délais et soutien financier", "positions": { "lfi": 2, "ps": 4, "eelv": 4, "renaissance": 4, "horizons": 4, "lr": 2, "rn": 1 } },
+      { "id": "q_ecol_12_o3", "text": "Non, inciter financièrement sans rendre obligatoire", "positions": { "lfi": -2, "ps": 1, "eelv": -2, "renaissance": 2, "horizons": 2, "lr": 3, "rn": 2 } }
+    ]
+  },
+
+  {
+    "id": "q_sec_01",
+    "themeId": "theme_security",
+    "importance": 1,
+    "text": "Le droit du sol (nationalité accordée aux enfants nés en France) doit-il être maintenu ?",
+    "options": [
+      { "id": "q_sec_01_o1", "text": "Oui, le droit du sol est un pilier républicain à préserver", "positions": { "lfi": 5, "ps": 5, "eelv": 5, "renaissance": 3, "horizons": 2, "lr": -2, "rn": -5 } },
+      { "id": "q_sec_01_o2", "text": "Maintenir mais conditionner à un parent en situation régulière", "positions": { "lfi": -2, "ps": -1, "eelv": -2, "renaissance": 2, "horizons": 3, "lr": 3, "rn": -3 } },
+      { "id": "q_sec_01_o3", "text": "Le supprimer par référendum et passer au droit du sang", "positions": { "lfi": -5, "ps": -5, "eelv": -5, "renaissance": -3, "horizons": -3, "lr": 2, "rn": 5 } }
+    ]
+  },
+  {
+    "id": "q_sec_02",
+    "themeId": "theme_security",
+    "importance": 1,
+    "text": "Quelle est votre position sur la préférence nationale (réserver emplois publics et aides aux Français) ?",
+    "options": [
+      { "id": "q_sec_02_o1", "text": "C'est inconstitutionnel et discriminatoire, il faut s'y opposer fermement", "positions": { "lfi": 5, "ps": 5, "eelv": 5, "renaissance": 4, "horizons": 3, "lr": -1, "rn": -5 } },
+      { "id": "q_sec_02_o2", "text": "La priorité aux résidents légaux pour certaines aides est acceptable", "positions": { "lfi": -2, "ps": -1, "eelv": -2, "renaissance": 2, "horizons": 3, "lr": 4, "rn": -2 } },
+      { "id": "q_sec_02_o3", "text": "Oui, la préférence nationale doit être inscrite dans la Constitution", "positions": { "lfi": -5, "ps": -5, "eelv": -5, "renaissance": -3, "horizons": -3, "lr": 3, "rn": 5 } }
+    ]
+  },
+  {
+    "id": "q_sec_03",
+    "themeId": "theme_security",
+    "importance": 1,
+    "text": "Quelle doit être la politique relative à l'Aide Médicale d'État (AME) pour les sans-papiers ?",
+    "options": [
+      { "id": "q_sec_03_o1", "text": "La maintenir et l'étendre : l'accès aux soins est un droit universel", "positions": { "lfi": 5, "ps": 4, "eelv": 5, "renaissance": 2, "horizons": 1, "lr": -2, "rn": -4 } },
+      { "id": "q_sec_03_o2", "text": "La maintenir mais la cibler sur les soins essentiels", "positions": { "lfi": -1, "ps": 2, "eelv": 0, "renaissance": 3, "horizons": 3, "lr": 2, "rn": -2 } },
+      { "id": "q_sec_03_o3", "text": "La supprimer et ne garder que l'aide d'urgence vitale", "positions": { "lfi": -5, "ps": -4, "eelv": -5, "renaissance": -2, "horizons": -2, "lr": 4, "rn": 5 } }
+    ]
+  },
+  {
+    "id": "q_sec_04",
+    "themeId": "theme_security",
+    "importance": 1,
+    "text": "La France doit-elle rétablir des contrôles systématiques à ses frontières au sein de l'espace Schengen ?",
+    "options": [
+      { "id": "q_sec_04_o1", "text": "Non, Schengen garantit la libre circulation et la coopération européenne", "positions": { "lfi": 3, "ps": 3, "eelv": 3, "renaissance": 2, "horizons": 1, "lr": -2, "rn": -5 } },
+      { "id": "q_sec_04_o2", "text": "Des contrôles temporaires et ciblés sont possibles dans Schengen", "positions": { "lfi": -1, "ps": 1, "eelv": -1, "renaissance": 2, "horizons": 3, "lr": 3, "rn": -1 } },
+      { "id": "q_sec_04_o3", "text": "Oui, rétablir des frontières permanentes et suspendre Schengen si nécessaire", "positions": { "lfi": -3, "ps": -3, "eelv": -3, "renaissance": -2, "horizons": -1, "lr": 4, "rn": 5 } }
+    ]
+  },
+  {
+    "id": "q_sec_05",
+    "themeId": "theme_security",
+    "importance": 1,
+    "text": "Les quotas d'immigration doivent-ils être votés chaque année par le Parlement ?",
+    "options": [
+      { "id": "q_sec_05_o1", "text": "Non, les quotas sont inefficaces et contraires aux droits fondamentaux", "positions": { "lfi": 5, "ps": 3, "eelv": 5, "renaissance": -1, "horizons": -2, "lr": -3, "rn": -4 } },
+      { "id": "q_sec_05_o2", "text": "Oui, une gestion démocratique des flux migratoires est légitime", "positions": { "lfi": -2, "ps": 1, "eelv": -1, "renaissance": 4, "horizons": 3, "lr": 3, "rn": 1 } },
+      { "id": "q_sec_05_o3", "text": "Oui, et les quotas doivent être très restrictifs", "positions": { "lfi": -4, "ps": -3, "eelv": -4, "renaissance": 1, "horizons": 2, "lr": 5, "rn": 4 } }
+    ]
+  },
+  {
+    "id": "q_sec_06",
+    "themeId": "theme_security",
+    "importance": 2,
+    "text": "Les obligations de quitter le territoire français (OQTF) doivent-elles être exécutées systématiquement ?",
+    "options": [
+      { "id": "q_sec_06_o1", "text": "Non, chaque situation doit être examinée individuellement", "positions": { "lfi": 4, "ps": 2, "eelv": 4, "renaissance": -1, "horizons": -2, "lr": -4, "rn": -5 } },
+      { "id": "q_sec_06_o2", "text": "Les améliorer en distinguant les profils (durée de présence, famille...)", "positions": { "lfi": 1, "ps": 4, "eelv": 2, "renaissance": 3, "horizons": 3, "lr": 1, "rn": -1 } },
+      { "id": "q_sec_06_o3", "text": "Oui, les OQTF doivent être exécutées sans exception", "positions": { "lfi": -4, "ps": -3, "eelv": -4, "renaissance": 2, "horizons": 2, "lr": 5, "rn": 5 } }
+    ]
+  },
+  {
+    "id": "q_sec_07",
+    "themeId": "theme_security",
+    "importance": 2,
+    "text": "La France doit-elle reconnaître le statut de réfugié climatique ?",
+    "options": [
+      { "id": "q_sec_07_o1", "text": "Oui, le changement climatique force des millions de personnes à fuir", "positions": { "lfi": 5, "ps": 4, "eelv": 5, "renaissance": 1, "horizons": 0, "lr": -3, "rn": -5 } },
+      { "id": "q_sec_07_o2", "text": "Oui, mais dans un cadre européen strict et non unilatéral", "positions": { "lfi": 2, "ps": 4, "eelv": 3, "renaissance": 3, "horizons": 2, "lr": -1, "rn": -3 } },
+      { "id": "q_sec_07_o3", "text": "Non, cela ouvrirait un droit à la migration illimité", "positions": { "lfi": -4, "ps": -3, "eelv": -4, "renaissance": 0, "horizons": 0, "lr": 4, "rn": 5 } }
+    ]
+  },
+  {
+    "id": "q_sec_08",
+    "themeId": "theme_security",
+    "importance": 2,
+    "text": "Faut-il augmenter significativement les effectifs de police et de gendarmerie ?",
+    "options": [
+      { "id": "q_sec_08_o1", "text": "Non, mieux former et mieux équiper est plus efficace qu'augmenter les effectifs", "positions": { "lfi": 3, "ps": 1, "eelv": 2, "renaissance": -1, "horizons": -1, "lr": -3, "rn": -3 } },
+      { "id": "q_sec_08_o2", "text": "Oui, un renforcement modéré ciblé sur les zones sensibles", "positions": { "lfi": -1, "ps": 2, "eelv": 0, "renaissance": 3, "horizons": 3, "lr": 3, "rn": 2 } },
+      { "id": "q_sec_08_o3", "text": "Oui, un renforcement massif est indispensable", "positions": { "lfi": -3, "ps": -1, "eelv": -2, "renaissance": 2, "horizons": 3, "lr": 5, "rn": 5 } }
+    ]
+  },
+  {
+    "id": "q_sec_09",
+    "themeId": "theme_security",
+    "importance": 2,
+    "text": "Les étrangers condamnés pénalement doivent-ils être systématiquement expulsés (double peine) ?",
+    "options": [
+      { "id": "q_sec_09_o1", "text": "Non, la peine de prison suffit, l'expulsion est une double peine injuste", "positions": { "lfi": 5, "ps": 3, "eelv": 4, "renaissance": -1, "horizons": -1, "lr": -4, "rn": -5 } },
+      { "id": "q_sec_09_o2", "text": "L'expulsion doit être examinée au cas par cas selon la gravité", "positions": { "lfi": 1, "ps": 3, "eelv": 2, "renaissance": 3, "horizons": 3, "lr": 2, "rn": -1 } },
+      { "id": "q_sec_09_o3", "text": "Oui, toute condamnation grave doit entraîner l'expulsion automatique", "positions": { "lfi": -4, "ps": -2, "eelv": -4, "renaissance": 2, "horizons": 2, "lr": 5, "rn": 5 } }
+    ]
+  },
+  {
+    "id": "q_sec_10",
+    "themeId": "theme_security",
+    "importance": 2,
+    "text": "L'immigration de travail doit-elle être facilitée dans les secteurs en tension (bâtiment, agriculture, santé) ?",
+    "options": [
+      { "id": "q_sec_10_o1", "text": "Oui, et régulariser les travailleurs sans-papiers déjà présents", "positions": { "lfi": 5, "ps": 4, "eelv": 4, "renaissance": 2, "horizons": 1, "lr": -2, "rn": -4 } },
+      { "id": "q_sec_10_o2", "text": "Oui, via des visas de travail ciblés décidés avec les partenaires sociaux", "positions": { "lfi": 1, "ps": 3, "eelv": 2, "renaissance": 4, "horizons": 4, "lr": 1, "rn": -1 } },
+      { "id": "q_sec_10_o3", "text": "Non, il faut d'abord former et employer les Français", "positions": { "lfi": -2, "ps": -2, "eelv": -2, "renaissance": -1, "horizons": 0, "lr": 3, "rn": 4 } }
+    ]
+  },
+  {
+    "id": "q_sec_11",
+    "themeId": "theme_security",
+    "importance": 3,
+    "text": "Faut-il autoriser les statistiques ethniques pour mesurer les discriminations ?",
+    "options": [
+      { "id": "q_sec_11_o1", "text": "Oui, elles permettraient de mieux lutter contre les discriminations", "positions": { "lfi": 3, "ps": 3, "eelv": 3, "renaissance": 0, "horizons": 0, "lr": -2, "rn": -3 } },
+      { "id": "q_sec_11_o2", "text": "Des données sociales (revenus, quartiers) sont suffisantes et moins risquées", "positions": { "lfi": 2, "ps": 3, "eelv": 2, "renaissance": 3, "horizons": 3, "lr": 2, "rn": -1 } },
+      { "id": "q_sec_11_o3", "text": "Non, elles sont contraires au modèle républicain universel", "positions": { "lfi": 2, "ps": 1, "eelv": 1, "renaissance": 3, "horizons": 3, "lr": 4, "rn": 3 } }
+    ]
+  },
+  {
+    "id": "q_sec_12",
+    "themeId": "theme_security",
+    "importance": 3,
+    "text": "La rétention administrative des personnes en situation irrégulière doit-elle être prolongée ?",
+    "options": [
+      { "id": "q_sec_12_o1", "text": "Non, la rétention doit être limitée et encadrée par un juge", "positions": { "lfi": 5, "ps": 3, "eelv": 5, "renaissance": 0, "horizons": -1, "lr": -3, "rn": -5 } },
+      { "id": "q_sec_12_o2", "text": "Le cadre actuel est suffisant, mieux l'appliquer", "positions": { "lfi": 0, "ps": 2, "eelv": 0, "renaissance": 3, "horizons": 3, "lr": 0, "rn": -2 } },
+      { "id": "q_sec_12_o3", "text": "Oui, la prolonger pour faciliter les expulsions", "positions": { "lfi": -4, "ps": -3, "eelv": -4, "renaissance": 1, "horizons": 2, "lr": 5, "rn": 5 } }
+    ]
+  },
+  {
+    "id": "q_sec_13",
+    "themeId": "theme_security",
+    "importance": 3,
+    "text": "Les personnes ayant la double nationalité doivent-elles être exclues des hautes fonctions de l'État ?",
+    "options": [
+      { "id": "q_sec_13_o1", "text": "Non, c'est une discrimination inconstitutionnelle", "positions": { "lfi": 5, "ps": 5, "eelv": 5, "renaissance": 4, "horizons": 3, "lr": -1, "rn": -5 } },
+      { "id": "q_sec_13_o2", "text": "Uniquement pour certains postes très sensibles (défense, renseignement)", "positions": { "lfi": -1, "ps": -1, "eelv": -1, "renaissance": 2, "horizons": 2, "lr": 3, "rn": -2 } },
+      { "id": "q_sec_13_o3", "text": "Oui, pour toutes les hautes fonctions de l'État", "positions": { "lfi": -5, "ps": -5, "eelv": -5, "renaissance": -3, "horizons": -3, "lr": 2, "rn": 5 } }
+    ]
+  },
+  {
+    "id": "q_sec_14",
+    "themeId": "theme_security",
+    "importance": 3,
+    "text": "Le regroupement familial doit-il être davantage restreint ?",
+    "options": [
+      { "id": "q_sec_14_o1", "text": "Non, le droit à la vie familiale est fondamental", "positions": { "lfi": 5, "ps": 4, "eelv": 5, "renaissance": 1, "horizons": 0, "lr": -3, "rn": -5 } },
+      { "id": "q_sec_14_o2", "text": "Mieux vérifier les conditions d'accueil et d'intégration", "positions": { "lfi": -1, "ps": 2, "eelv": -1, "renaissance": 3, "horizons": 3, "lr": 3, "rn": -1 } },
+      { "id": "q_sec_14_o3", "text": "Oui, le restreindre fortement voire le supprimer", "positions": { "lfi": -5, "ps": -4, "eelv": -5, "renaissance": -2, "horizons": -1, "lr": 4, "rn": 5 } }
+    ]
+  },
+  {
+    "id": "q_sec_15",
+    "themeId": "theme_security",
+    "importance": 3,
+    "text": "La procédure d'asile doit-elle être radicalement accélérée et simplifiée ?",
+    "options": [
+      { "id": "q_sec_15_o1", "text": "Oui, pour traiter dignement et rapidement les demandes légitimes", "positions": { "lfi": 4, "ps": 4, "eelv": 4, "renaissance": 3, "horizons": 3, "lr": 0, "rn": -2 } },
+      { "id": "q_sec_15_o2", "text": "Oui, mais surtout pour rejeter et expulser plus vite les déboutés", "positions": { "lfi": -3, "ps": -1, "eelv": -3, "renaissance": 2, "horizons": 3, "lr": 5, "rn": 4 } },
+      { "id": "q_sec_15_o3", "text": "Mieux vaut traiter les causes en aidant les pays d'origine", "positions": { "lfi": 3, "ps": 3, "eelv": 3, "renaissance": 2, "horizons": 2, "lr": 1, "rn": -1 } }
+    ]
+  },
+
+  {
+    "id": "q_health_01",
+    "themeId": "theme_health",
+    "importance": 1,
+    "text": "Faut-il privatiser une partie du système de santé pour le rendre plus efficace ?",
+    "options": [
+      { "id": "q_health_01_o1", "text": "Non, il faut renforcer massivement le service public hospitalier", "positions": { "lfi": 5, "ps": 4, "eelv": 4, "renaissance": -1, "horizons": -1, "lr": -3, "rn": -2 } },
+      { "id": "q_health_01_o2", "text": "Maintenir le système mixte actuel en l'améliorant", "positions": { "lfi": -1, "ps": 2, "eelv": 0, "renaissance": 4, "horizons": 4, "lr": 3, "rn": 2 } },
+      { "id": "q_health_01_o3", "text": "Oui, ouvrir davantage à la concurrence privée améliorera la qualité", "positions": { "lfi": -5, "ps": -3, "eelv": -4, "renaissance": 2, "horizons": 2, "lr": 4, "rn": -1 } }
+    ]
+  },
+  {
+    "id": "q_health_02",
+    "themeId": "theme_health",
+    "importance": 1,
+    "text": "La Sécurité Sociale doit-elle rembourser 100 % des soins sans reste à charge ?",
+    "options": [
+      { "id": "q_health_02_o1", "text": "Oui, le 100 % Sécu doit être l'objectif national", "positions": { "lfi": 5, "ps": 3, "eelv": 3, "renaissance": -1, "horizons": -1, "lr": -3, "rn": -1 } },
+      { "id": "q_health_02_o2", "text": "Améliorer le remboursement sur les soins essentiels", "positions": { "lfi": 2, "ps": 4, "eelv": 3, "renaissance": 3, "horizons": 3, "lr": 1, "rn": 2 } },
+      { "id": "q_health_02_o3", "text": "Le système complémentaires/mutuelles fonctionne, mieux l'encadrer", "positions": { "lfi": -3, "ps": 0, "eelv": -1, "renaissance": 3, "horizons": 3, "lr": 3, "rn": 2 } }
+    ]
+  },
+  {
+    "id": "q_health_03",
+    "themeId": "theme_health",
+    "importance": 1,
+    "text": "Comment lutter efficacement contre les déserts médicaux ?",
+    "options": [
+      { "id": "q_health_03_o1", "text": "Réguler l'installation des médecins en zones saturées et les inciter dans les déserts", "positions": { "lfi": 5, "ps": 4, "eelv": 4, "renaissance": 2, "horizons": 2, "lr": 0, "rn": 2 } },
+      { "id": "q_health_03_o2", "text": "Développer la télémédecine et les maisons de santé pluridisciplinaires", "positions": { "lfi": 2, "ps": 3, "eelv": 3, "renaissance": 4, "horizons": 4, "lr": 3, "rn": 3 } },
+      { "id": "q_health_03_o3", "text": "Former davantage de médecins en levant le numerus clausus", "positions": { "lfi": 3, "ps": 4, "eelv": 3, "renaissance": 3, "horizons": 3, "lr": 3, "rn": 3 } }
+    ]
+  },
+  {
+    "id": "q_health_04",
+    "themeId": "theme_health",
+    "importance": 2,
+    "text": "Les dépassements d'honoraires médicaux doivent-ils être interdits ?",
+    "options": [
+      { "id": "q_health_04_o1", "text": "Oui, tous les médecins doivent être en secteur 1 sans dépassement", "positions": { "lfi": 5, "ps": 3, "eelv": 4, "renaissance": -1, "horizons": -1, "lr": -3, "rn": 0 } },
+      { "id": "q_health_04_o2", "text": "Encadrer et plafonner les dépassements, pas les interdire", "positions": { "lfi": 1, "ps": 4, "eelv": 2, "renaissance": 3, "horizons": 3, "lr": 2, "rn": 2 } },
+      { "id": "q_health_04_o3", "text": "Non, la liberté tarifaire garantit l'attractivité de la profession", "positions": { "lfi": -4, "ps": -2, "eelv": -3, "renaissance": 2, "horizons": 2, "lr": 4, "rn": -1 } }
+    ]
+  },
+  {
+    "id": "q_health_05",
+    "themeId": "theme_health",
+    "importance": 2,
+    "text": "Faut-il créer une 5e branche de la Sécurité Sociale dédiée à l'autonomie des personnes âgées ?",
+    "options": [
+      { "id": "q_health_05_o1", "text": "Oui, avec un financement solidaire et public important", "positions": { "lfi": 4, "ps": 4, "eelv": 4, "renaissance": 2, "horizons": 5, "lr": 2, "rn": 3 } },
+      { "id": "q_health_05_o2", "text": "Oui, en associant épargne individuelle et solidarité nationale", "positions": { "lfi": 0, "ps": 2, "eelv": 1, "renaissance": 4, "horizons": 4, "lr": 4, "rn": 2 } },
+      { "id": "q_health_05_o3", "text": "Non, mieux utiliser les ressources existantes suffit", "positions": { "lfi": -2, "ps": -1, "eelv": -1, "renaissance": 0, "horizons": -1, "lr": 1, "rn": -1 } }
+    ]
+  },
+  {
+    "id": "q_health_06",
+    "themeId": "theme_health",
+    "importance": 2,
+    "text": "Les salaires des soignants (infirmiers, aides-soignants) doivent-ils être significativement revalorisés ?",
+    "options": [
+      { "id": "q_health_06_o1", "text": "Oui, avec un plan massif de recrutement et de revalorisation salariale", "positions": { "lfi": 5, "ps": 4, "eelv": 4, "renaissance": 3, "horizons": 3, "lr": 2, "rn": 3 } },
+      { "id": "q_health_06_o2", "text": "Oui, progressivement en lien avec les résultats et la qualité des soins", "positions": { "lfi": 1, "ps": 3, "eelv": 2, "renaissance": 4, "horizons": 4, "lr": 3, "rn": 2 } },
+      { "id": "q_health_06_o3", "text": "Les Ségur de la Santé ont déjà apporté des revalorisations suffisantes", "positions": { "lfi": -3, "ps": -1, "eelv": -2, "renaissance": 2, "horizons": 2, "lr": 2, "rn": 1 } }
+    ]
+  },
+  {
+    "id": "q_health_07",
+    "themeId": "theme_health",
+    "importance": 2,
+    "text": "Les médecins libéraux doivent-ils être soumis à un conventionnement sélectif selon leur zone d'installation ?",
+    "options": [
+      { "id": "q_health_07_o1", "text": "Oui, contraindre les installations en zone surdotée", "positions": { "lfi": 4, "ps": 3, "eelv": 3, "renaissance": 1, "horizons": 1, "lr": -2, "rn": 0 } },
+      { "id": "q_health_07_o2", "text": "Inciter fortement sans contraindre (primes, logement...)", "positions": { "lfi": 1, "ps": 3, "eelv": 2, "renaissance": 4, "horizons": 4, "lr": 3, "rn": 3 } },
+      { "id": "q_health_07_o3", "text": "Non, la liberté d'installation est un droit des médecins libéraux", "positions": { "lfi": -3, "ps": -1, "eelv": -2, "renaissance": 2, "horizons": 2, "lr": 4, "rn": 2 } }
+    ]
+  },
+  {
+    "id": "q_health_08",
+    "themeId": "theme_health",
+    "importance": 3,
+    "text": "Les médecines alternatives (homéopathie, ostéopathie, acupuncture) doivent-elles être remboursées ?",
+    "options": [
+      { "id": "q_health_08_o1", "text": "Oui, pour celles ayant une efficacité prouvée scientifiquement", "positions": { "lfi": 2, "ps": 2, "eelv": 3, "renaissance": 2, "horizons": 2, "lr": 1, "rn": 2 } },
+      { "id": "q_health_08_o2", "text": "Non, rembourser uniquement la médecine fondée sur les preuves", "positions": { "lfi": 2, "ps": 3, "eelv": 2, "renaissance": 3, "horizons": 3, "lr": 3, "rn": 2 } },
+      { "id": "q_health_08_o3", "text": "Oui, laisser les patients choisir librement avec remboursement", "positions": { "lfi": 1, "ps": 1, "eelv": 2, "renaissance": 1, "horizons": 1, "lr": 2, "rn": 2 } }
+    ]
+  },
+  {
+    "id": "q_health_09",
+    "themeId": "theme_health",
+    "importance": 3,
+    "text": "L'État doit-il mener des politiques de santé publique plus actives (tabac, alcool, alimentation) ?",
+    "options": [
+      { "id": "q_health_09_o1", "text": "Oui, des politiques de prévention fortes sont une priorité", "positions": { "lfi": 4, "ps": 4, "eelv": 4, "renaissance": 3, "horizons": 3, "lr": 2, "rn": 1 } },
+      { "id": "q_health_09_o2", "text": "Oui, mais en informant sans tomber dans la police sanitaire", "positions": { "lfi": 2, "ps": 3, "eelv": 3, "renaissance": 3, "horizons": 3, "lr": 3, "rn": 3 } },
+      { "id": "q_health_09_o3", "text": "Non, chaque individu est libre de ses choix de vie", "positions": { "lfi": -2, "ps": -1, "eelv": -1, "renaissance": 1, "horizons": 1, "lr": 3, "rn": 3 } }
+    ]
+  },
+  {
+    "id": "q_health_10",
+    "themeId": "theme_health",
+    "importance": 3,
+    "text": "Faut-il légaliser le cannabis à usage récréatif et médical ?",
+    "options": [
+      { "id": "q_health_10_o1", "text": "Oui, légaliser et réguler comme l'alcool pour tarir le marché noir", "positions": { "lfi": 4, "ps": 3, "eelv": 4, "renaissance": 0, "horizons": -1, "lr": -3, "rn": -4 } },
+      { "id": "q_health_10_o2", "text": "Légaliser uniquement le cannabis médical", "positions": { "lfi": 1, "ps": 2, "eelv": 2, "renaissance": 2, "horizons": 1, "lr": -1, "rn": -1 } },
+      { "id": "q_health_10_o3", "text": "Non, la politique répressive doit être maintenue", "positions": { "lfi": -3, "ps": -1, "eelv": -2, "renaissance": 1, "horizons": 2, "lr": 4, "rn": 4 } }
+    ]
+  },
+
+  {
+    "id": "q_edu_01",
+    "themeId": "theme_education",
+    "importance": 1,
+    "text": "L'État doit-il continuer à financer les écoles privées sous contrat ?",
+    "options": [
+      { "id": "q_edu_01_o1", "text": "Non, supprimer tout financement public du privé confessionnel", "positions": { "lfi": 5, "ps": 3, "eelv": 4, "renaissance": -2, "horizons": -2, "lr": -4, "rn": -2 } },
+      { "id": "q_edu_01_o2", "text": "Maintenir le financement sous conditions strictes de mixité sociale", "positions": { "lfi": -1, "ps": 3, "eelv": 1, "renaissance": 3, "horizons": 3, "lr": 2, "rn": 2 } },
+      { "id": "q_edu_01_o3", "text": "Oui, la liberté de l'enseignement et le pluralisme doivent être préservés", "positions": { "lfi": -4, "ps": -1, "eelv": -2, "renaissance": 3, "horizons": 3, "lr": 5, "rn": 3 } }
+    ]
+  },
+  {
+    "id": "q_edu_02",
+    "themeId": "theme_education",
+    "importance": 1,
+    "text": "L'instruction doit-elle être obligatoire et gratuite jusqu'à quel âge ?",
+    "options": [
+      { "id": "q_edu_02_o1", "text": "Jusqu'à 18 ans, y compris lycée et formation professionnelle", "positions": { "lfi": 5, "ps": 3, "eelv": 4, "renaissance": 2, "horizons": 1, "lr": 0, "rn": 1 } },
+      { "id": "q_edu_02_o2", "text": "Jusqu'à 16 ans comme actuellement", "positions": { "lfi": 0, "ps": 3, "eelv": 1, "renaissance": 4, "horizons": 4, "lr": 4, "rn": 3 } },
+      { "id": "q_edu_02_o3", "text": "L'important est la qualité, pas l'âge légal de fin de scolarité", "positions": { "lfi": -2, "ps": 0, "eelv": -1, "renaissance": 2, "horizons": 2, "lr": 3, "rn": 2 } }
+    ]
+  },
+  {
+    "id": "q_edu_03",
+    "themeId": "theme_education",
+    "importance": 1,
+    "text": "La laïcité à l'école doit-elle être renforcée ?",
+    "options": [
+      { "id": "q_edu_03_o1", "text": "Oui, étendre l'interdiction des signes religieux à tous les accompagnants", "positions": { "lfi": 3, "ps": 2, "eelv": 1, "renaissance": 3, "horizons": 3, "lr": 4, "rn": 3 } },
+      { "id": "q_edu_03_o2", "text": "La loi de 2004 est suffisante, mieux l'appliquer", "positions": { "lfi": 2, "ps": 3, "eelv": 2, "renaissance": 4, "horizons": 4, "lr": 3, "rn": 2 } },
+      { "id": "q_edu_03_o3", "text": "La laïcité n'est pas menacée, évitons les crispations inutiles", "positions": { "lfi": 1, "ps": 2, "eelv": 3, "renaissance": 1, "horizons": 1, "lr": -1, "rn": -1 } }
+    ]
+  },
+  {
+    "id": "q_edu_04",
+    "themeId": "theme_education",
+    "importance": 2,
+    "text": "Le port de l'uniforme doit-il être rendu obligatoire dans les écoles publiques ?",
+    "options": [
+      { "id": "q_edu_04_o1", "text": "Non, l'uniforme est liberticide et inefficace contre les inégalités", "positions": { "lfi": 3, "ps": 2, "eelv": 3, "renaissance": -1, "horizons": -1, "lr": -3, "rn": -2 } },
+      { "id": "q_edu_04_o2", "text": "Une expérimentation locale volontaire est préférable", "positions": { "lfi": -1, "ps": 2, "eelv": 0, "renaissance": 3, "horizons": 3, "lr": 2, "rn": 2 } },
+      { "id": "q_edu_04_o3", "text": "Oui, l'uniforme favorise l'égalité et réduit les tensions", "positions": { "lfi": -3, "ps": -1, "eelv": -2, "renaissance": 2, "horizons": 2, "lr": 4, "rn": 4 } }
+    ]
+  },
+  {
+    "id": "q_edu_05",
+    "themeId": "theme_education",
+    "importance": 2,
+    "text": "L'enseignement professionnel et l'apprentissage doivent-ils être davantage valorisés ?",
+    "options": [
+      { "id": "q_edu_05_o1", "text": "Oui, avec un investissement massif sans dévaloriser l'enseignement général", "positions": { "lfi": 3, "ps": 4, "eelv": 3, "renaissance": 4, "horizons": 5, "lr": 4, "rn": 4 } },
+      { "id": "q_edu_05_o2", "text": "Oui, en faisant de la voie professionnelle un choix positif et valorisé", "positions": { "lfi": 3, "ps": 4, "eelv": 3, "renaissance": 4, "horizons": 5, "lr": 4, "rn": 4 } },
+      { "id": "q_edu_05_o3", "text": "L'enseignement général doit rester la priorité", "positions": { "lfi": 2, "ps": 2, "eelv": 2, "renaissance": 1, "horizons": 1, "lr": 1, "rn": 1 } }
+    ]
+  },
+  {
+    "id": "q_edu_06",
+    "themeId": "theme_education",
+    "importance": 2,
+    "text": "Faut-il instaurer des frais d'inscription différenciés selon le revenu à l'université ?",
+    "options": [
+      { "id": "q_edu_06_o1", "text": "Non, l'université doit rester gratuite pour tous", "positions": { "lfi": 5, "ps": 3, "eelv": 4, "renaissance": -1, "horizons": -1, "lr": -3, "rn": 0 } },
+      { "id": "q_edu_06_o2", "text": "Des frais modestes avec bourses pour les étudiants modestes", "positions": { "lfi": -1, "ps": 2, "eelv": 0, "renaissance": 3, "horizons": 3, "lr": 3, "rn": 1 } },
+      { "id": "q_edu_06_o3", "text": "Oui, des frais réels permettraient de mieux financer les universités", "positions": { "lfi": -4, "ps": -2, "eelv": -3, "renaissance": 2, "horizons": 2, "lr": 4, "rn": -1 } }
+    ]
+  },
+  {
+    "id": "q_edu_07",
+    "themeId": "theme_education",
+    "importance": 3,
+    "text": "Les langues régionales (breton, alsacien, occitan...) doivent-elles être enseignées à l'école publique ?",
+    "options": [
+      { "id": "q_edu_07_o1", "text": "Oui, les enseigner et les valoriser comme patrimoine culturel", "positions": { "lfi": 3, "ps": 3, "eelv": 4, "renaissance": 2, "horizons": 2, "lr": 1, "rn": 1 } },
+      { "id": "q_edu_07_o2", "text": "Uniquement en option, sans en faire une priorité", "positions": { "lfi": 1, "ps": 2, "eelv": 2, "renaissance": 3, "horizons": 3, "lr": 3, "rn": 2 } },
+      { "id": "q_edu_07_o3", "text": "Non, le français seul doit être la langue de la République", "positions": { "lfi": -2, "ps": -1, "eelv": -2, "renaissance": 1, "horizons": 1, "lr": 3, "rn": 3 } }
+    ]
+  },
+  {
+    "id": "q_edu_08",
+    "themeId": "theme_education",
+    "importance": 3,
+    "text": "Le numérique et les tablettes doivent-ils être généralisés dans les classes primaires ?",
+    "options": [
+      { "id": "q_edu_08_o1", "text": "Non, privilégier l'écriture manuscrite et les supports papier en primaire", "positions": { "lfi": 2, "ps": 2, "eelv": 2, "renaissance": -1, "horizons": -1, "lr": 1, "rn": 2 } },
+      { "id": "q_edu_08_o2", "text": "Oui, sous conditions et avec formation des enseignants", "positions": { "lfi": 1, "ps": 2, "eelv": 1, "renaissance": 4, "horizons": 4, "lr": 3, "rn": 2 } },
+      { "id": "q_edu_08_o3", "text": "Oui, préparer dès le plus jeune âge au monde numérique", "positions": { "lfi": -1, "ps": 1, "eelv": -1, "renaissance": 4, "horizons": 3, "lr": 2, "rn": 2 } }
+    ]
+  },
+
+  {
+    "id": "q_inst_01",
+    "themeId": "theme_institutions",
+    "importance": 1,
+    "text": "Faut-il convoquer une constituante pour passer à une VIe République ?",
+    "options": [
+      { "id": "q_inst_01_o1", "text": "Oui, une constituante élue doit rédiger une nouvelle Constitution", "positions": { "lfi": 5, "ps": 1, "eelv": 4, "renaissance": -3, "horizons": -2, "lr": -3, "rn": -3 } },
+      { "id": "q_inst_01_o2", "text": "Réformer la Ve République en profondeur sans constituante", "positions": { "lfi": 1, "ps": 3, "eelv": 2, "renaissance": 2, "horizons": 3, "lr": 2, "rn": 1 } },
+      { "id": "q_inst_01_o3", "text": "Non, la Ve République fonctionne, des ajustements suffisent", "positions": { "lfi": -4, "ps": 1, "eelv": -2, "renaissance": 3, "horizons": 3, "lr": 3, "rn": 3 } }
+    ]
+  },
+  {
+    "id": "q_inst_02",
+    "themeId": "theme_institutions",
+    "importance": 1,
+    "text": "Faut-il introduire la proportionnelle dans les élections législatives ?",
+    "options": [
+      { "id": "q_inst_02_o1", "text": "Oui, une proportionnelle intégrale pour mieux représenter tous les Français", "positions": { "lfi": 5, "ps": 3, "eelv": 5, "renaissance": 0, "horizons": 0, "lr": -1, "rn": 2 } },
+      { "id": "q_inst_02_o2", "text": "Oui, une proportionnelle partielle (dose) en complément du scrutin majoritaire", "positions": { "lfi": 2, "ps": 4, "eelv": 3, "renaissance": 3, "horizons": 3, "lr": 2, "rn": 3 } },
+      { "id": "q_inst_02_o3", "text": "Non, le scrutin majoritaire assure la stabilité gouvernementale", "positions": { "lfi": -3, "ps": -1, "eelv": -2, "renaissance": 2, "horizons": 2, "lr": 3, "rn": -1 } }
+    ]
+  },
+  {
+    "id": "q_inst_03",
+    "themeId": "theme_institutions",
+    "importance": 1,
+    "text": "Faut-il instaurer un Référendum d'Initiative Citoyenne (RIC) contraignant pour les pouvoirs publics ?",
+    "options": [
+      { "id": "q_inst_03_o1", "text": "Oui, les citoyens doivent pouvoir forcer la tenue d'un référendum", "positions": { "lfi": 5, "ps": 2, "eelv": 4, "renaissance": 0, "horizons": 1, "lr": -1, "rn": 3 } },
+      { "id": "q_inst_03_o2", "text": "Oui, mais de façon encadrée (seuils élevés, contrôle constitutionnel)", "positions": { "lfi": 2, "ps": 3, "eelv": 3, "renaissance": 3, "horizons": 3, "lr": 2, "rn": 2 } },
+      { "id": "q_inst_03_o3", "text": "Non, la démocratie représentative doit rester le seul cadre légitime", "positions": { "lfi": -3, "ps": 1, "eelv": -1, "renaissance": 2, "horizons": 2, "lr": 3, "rn": -1 } }
+    ]
+  },
+  {
+    "id": "q_inst_04",
+    "themeId": "theme_institutions",
+    "importance": 2,
+    "text": "Le nombre de mandats successifs doit-il être limité pour les élus ?",
+    "options": [
+      { "id": "q_inst_04_o1", "text": "Oui, deux mandats maximum pour lutter contre la professionnalisation politique", "positions": { "lfi": 4, "ps": 2, "eelv": 4, "renaissance": 2, "horizons": 2, "lr": 2, "rn": 4 } },
+      { "id": "q_inst_04_o2", "text": "Limiter la durée cumulée mais laisser les électeurs juger", "positions": { "lfi": 1, "ps": 3, "eelv": 2, "renaissance": 3, "horizons": 3, "lr": 3, "rn": 2 } },
+      { "id": "q_inst_04_o3", "text": "Non, les électeurs sont souverains et peuvent reconduire leurs représentants", "positions": { "lfi": -2, "ps": 1, "eelv": -1, "renaissance": 2, "horizons": 2, "lr": 2, "rn": 0 } }
+    ]
+  },
+  {
+    "id": "q_inst_05",
+    "themeId": "theme_institutions",
+    "importance": 2,
+    "text": "L'article 49-3 permettant d'adopter un texte sans vote doit-il être supprimé ?",
+    "options": [
+      { "id": "q_inst_05_o1", "text": "Oui, le 49-3 est un déni de démocratie parlementaire", "positions": { "lfi": 5, "ps": 3, "eelv": 4, "renaissance": -1, "horizons": 0, "lr": -1, "rn": 3 } },
+      { "id": "q_inst_05_o2", "text": "Le limiter davantage sans le supprimer totalement", "positions": { "lfi": 2, "ps": 3, "eelv": 2, "renaissance": 2, "horizons": 3, "lr": 2, "rn": 1 } },
+      { "id": "q_inst_05_o3", "text": "Non, c'est un outil indispensable pour gouverner en cas de blocage", "positions": { "lfi": -4, "ps": -1, "eelv": -2, "renaissance": 3, "horizons": 3, "lr": 3, "rn": -1 } }
+    ]
+  },
+  {
+    "id": "q_inst_06",
+    "themeId": "theme_institutions",
+    "importance": 2,
+    "text": "Faut-il renforcer la décentralisation et les pouvoirs des régions et des communes ?",
+    "options": [
+      { "id": "q_inst_06_o1", "text": "Oui, donner plus de compétences et de ressources fiscales aux territoires", "positions": { "lfi": 2, "ps": 3, "eelv": 5, "renaissance": 3, "horizons": 3, "lr": 4, "rn": 2 } },
+      { "id": "q_inst_06_o2", "text": "Renforcer les communes sans affaiblir l'État national", "positions": { "lfi": 3, "ps": 3, "eelv": 3, "renaissance": 3, "horizons": 3, "lr": 3, "rn": 3 } },
+      { "id": "q_inst_06_o3", "text": "Non, la République une et indivisible doit rester centralisée", "positions": { "lfi": 3, "ps": 1, "eelv": -2, "renaissance": 1, "horizons": 1, "lr": 2, "rn": 2 } }
+    ]
+  },
+  {
+    "id": "q_inst_07",
+    "themeId": "theme_institutions",
+    "importance": 3,
+    "text": "Le vote blanc doit-il être comptabilisé et reconnu officiellement ?",
+    "options": [
+      { "id": "q_inst_07_o1", "text": "Oui, reconnaître le vote blanc comme expression démocratique légitime", "positions": { "lfi": 4, "ps": 3, "eelv": 4, "renaissance": 2, "horizons": 2, "lr": 2, "rn": 3 } },
+      { "id": "q_inst_07_o2", "text": "Le comptabiliser séparément sans en faire un vote annulant le scrutin", "positions": { "lfi": 2, "ps": 3, "eelv": 3, "renaissance": 3, "horizons": 3, "lr": 3, "rn": 3 } },
+      { "id": "q_inst_07_o3", "text": "Non, cela risque de déstabiliser les institutions", "positions": { "lfi": -2, "ps": -1, "eelv": -1, "renaissance": 1, "horizons": 1, "lr": 1, "rn": 0 } }
+    ]
+  },
+  {
+    "id": "q_inst_08",
+    "themeId": "theme_institutions",
+    "importance": 3,
+    "text": "Le service national universel (SNU) doit-il être rendu obligatoire pour tous les jeunes ?",
+    "options": [
+      { "id": "q_inst_08_o1", "text": "Non, mieux vaut un service civique volontaire et attractif", "positions": { "lfi": 3, "ps": 2, "eelv": 2, "renaissance": -1, "horizons": -1, "lr": -3, "rn": -2 } },
+      { "id": "q_inst_08_o2", "text": "Oui, un SNU court (1 mois) pour renforcer la cohésion nationale", "positions": { "lfi": -2, "ps": 1, "eelv": -1, "renaissance": 4, "horizons": 3, "lr": 3, "rn": 3 } },
+      { "id": "q_inst_08_o3", "text": "Oui, rétablir un vrai service militaire obligatoire", "positions": { "lfi": -4, "ps": -2, "eelv": -3, "renaissance": 0, "horizons": 1, "lr": 3, "rn": 3 } }
+    ]
+  },
+
+  {
+    "id": "q_eu_01",
+    "themeId": "theme_europe",
+    "importance": 1,
+    "text": "Quelle doit être la position de la France vis-à-vis de l'OTAN ?",
+    "options": [
+      { "id": "q_eu_01_o1", "text": "Sortir du commandement intégré de l'OTAN pour retrouver notre souveraineté militaire", "positions": { "lfi": 5, "ps": -3, "eelv": -1, "renaissance": -4, "horizons": -3, "lr": -3, "rn": 2 } },
+      { "id": "q_eu_01_o2", "text": "Rester dans l'OTAN mais renforcer l'autonomie stratégique européenne", "positions": { "lfi": -1, "ps": 3, "eelv": 3, "renaissance": 4, "horizons": 3, "lr": 2, "rn": -1 } },
+      { "id": "q_eu_01_o3", "text": "Renforcer notre engagement dans l'OTAN face aux menaces actuelles", "positions": { "lfi": -4, "ps": 4, "eelv": 2, "renaissance": 5, "horizons": 4, "lr": 4, "rn": -2 } }
+    ]
+  },
+  {
+    "id": "q_eu_02",
+    "themeId": "theme_europe",
+    "importance": 1,
+    "text": "La France doit-elle continuer à apporter un soutien militaire à l'Ukraine ?",
+    "options": [
+      { "id": "q_eu_02_o1", "text": "Oui, intensifier l'aide militaire et financière à l'Ukraine", "positions": { "lfi": -3, "ps": 5, "eelv": 3, "renaissance": 5, "horizons": 4, "lr": 4, "rn": -2 } },
+      { "id": "q_eu_02_o2", "text": "Oui, mais en parallèle d'efforts diplomatiques pour un cessez-le-feu", "positions": { "lfi": 2, "ps": 3, "eelv": 4, "renaissance": 3, "horizons": 3, "lr": 3, "rn": 1 } },
+      { "id": "q_eu_02_o3", "text": "Non, négocier une paix même compromise vaut mieux que la guerre", "positions": { "lfi": 3, "ps": -3, "eelv": -1, "renaissance": -3, "horizons": -2, "lr": -2, "rn": 3 } }
+    ]
+  },
+  {
+    "id": "q_eu_03",
+    "themeId": "theme_europe",
+    "importance": 1,
+    "text": "Souhaitez-vous davantage d'intégration et de fédéralisme au sein de l'Union européenne ?",
+    "options": [
+      { "id": "q_eu_03_o1", "text": "Oui, vers une Europe fédérale avec plus de souveraineté partagée", "positions": { "lfi": -4, "ps": 4, "eelv": 5, "renaissance": 4, "horizons": 2, "lr": -1, "rn": -5 } },
+      { "id": "q_eu_03_o2", "text": "Oui, mais une coopération renforcée sans transfert de souveraineté", "positions": { "lfi": -1, "ps": 3, "eelv": 3, "renaissance": 4, "horizons": 3, "lr": 2, "rn": -2 } },
+      { "id": "q_eu_03_o3", "text": "Non, reprendre des compétences déléguées à Bruxelles", "positions": { "lfi": 3, "ps": -2, "eelv": -2, "renaissance": -3, "horizons": -1, "lr": 2, "rn": 5 } }
+    ]
+  },
+  {
+    "id": "q_eu_04",
+    "themeId": "theme_europe",
+    "importance": 1,
+    "text": "Les traités européens doivent-ils être renégociés pour davantage protéger les travailleurs et l'environnement ?",
+    "options": [
+      { "id": "q_eu_04_o1", "text": "Oui, voire désobéir aux traités si nécessaire pour appliquer notre programme", "positions": { "lfi": 5, "ps": 0, "eelv": 2, "renaissance": -3, "horizons": -2, "lr": -2, "rn": 3 } },
+      { "id": "q_eu_04_o2", "text": "Oui, renégocier dans le cadre européen pour les réviser", "positions": { "lfi": 2, "ps": 4, "eelv": 4, "renaissance": 2, "horizons": 2, "lr": 1, "rn": 2 } },
+      { "id": "q_eu_04_o3", "text": "Non, respecter les traités et agir à l'intérieur du cadre existant", "positions": { "lfi": -3, "ps": 2, "eelv": 0, "renaissance": 4, "horizons": 4, "lr": 3, "rn": -1 } }
+    ]
+  },
+  {
+    "id": "q_eu_05",
+    "themeId": "theme_europe",
+    "importance": 2,
+    "text": "Faut-il instaurer une préférence européenne dans les marchés publics et les achats stratégiques ?",
+    "options": [
+      { "id": "q_eu_05_o1", "text": "Oui, favoriser les produits et entreprises européens dans les achats publics", "positions": { "lfi": 3, "ps": 3, "eelv": 3, "renaissance": 4, "horizons": 4, "lr": 4, "rn": 3 } },
+      { "id": "q_eu_05_o2", "text": "Oui, mais uniquement pour les secteurs stratégiques (défense, santé, tech)", "positions": { "lfi": 2, "ps": 3, "eelv": 3, "renaissance": 4, "horizons": 4, "lr": 3, "rn": 3 } },
+      { "id": "q_eu_05_o3", "text": "Non, cela protectionnisme nuit à la compétitivité et aux consommateurs", "positions": { "lfi": -2, "ps": 0, "eelv": -1, "renaissance": 1, "horizons": 1, "lr": -1, "rn": -1 } }
+    ]
+  },
+  {
+    "id": "q_eu_06",
+    "themeId": "theme_europe",
+    "importance": 2,
+    "text": "La France doit-elle sortir des règles européennes encadrant le prix de l'électricité ?",
+    "options": [
+      { "id": "q_eu_06_o1", "text": "Oui, la France doit contrôler ses prix de l'énergie souverainement", "positions": { "lfi": 4, "ps": 2, "eelv": 2, "renaissance": -1, "horizons": -1, "lr": -1, "rn": 5 } },
+      { "id": "q_eu_06_o2", "text": "Réformer le marché européen de l'électricité pour le rendre plus juste", "positions": { "lfi": 2, "ps": 4, "eelv": 3, "renaissance": 3, "horizons": 3, "lr": 2, "rn": 1 } },
+      { "id": "q_eu_06_o3", "text": "Le marché unique de l'énergie est bénéfique à moyen terme", "positions": { "lfi": -2, "ps": 2, "eelv": 1, "renaissance": 3, "horizons": 2, "lr": 2, "rn": -2 } }
+    ]
+  },
+  {
+    "id": "q_eu_07",
+    "themeId": "theme_europe",
+    "importance": 2,
+    "text": "Faut-il créer une véritable armée européenne commune ?",
+    "options": [
+      { "id": "q_eu_07_o1", "text": "Oui, une armée européenne autonome de l'OTAN est nécessaire", "positions": { "lfi": 2, "ps": 4, "eelv": 4, "renaissance": 4, "horizons": 3, "lr": 2, "rn": -3 } },
+      { "id": "q_eu_07_o2", "text": "Une coopération militaire renforcée sans armée unique", "positions": { "lfi": 0, "ps": 3, "eelv": 3, "renaissance": 4, "horizons": 3, "lr": 3, "rn": -1 } },
+      { "id": "q_eu_07_o3", "text": "Non, chaque nation doit conserver sa souveraineté militaire", "positions": { "lfi": 3, "ps": -1, "eelv": -1, "renaissance": -2, "horizons": -1, "lr": 2, "rn": 4 } }
+    ]
+  },
+  {
+    "id": "q_eu_08",
+    "themeId": "theme_europe",
+    "importance": 3,
+    "text": "Comment la France doit-elle gérer ses relations diplomatiques avec la Chine ?",
+    "options": [
+      { "id": "q_eu_08_o1", "text": "Partenariat stratégique tout en défendant les droits humains fermement", "positions": { "lfi": 2, "ps": 4, "eelv": 4, "renaissance": 4, "horizons": 3, "lr": 3, "rn": 1 } },
+      { "id": "q_eu_08_o2", "text": "Relations commerciales prioritaires, ne pas s'ingérer dans ses affaires intérieures", "positions": { "lfi": -1, "ps": -2, "eelv": -2, "renaissance": 1, "horizons": 2, "lr": 2, "rn": 3 } },
+      { "id": "q_eu_08_o3", "text": "Adopter une posture ferme face aux menaces géopolitiques chinoises", "positions": { "lfi": -2, "ps": 3, "eelv": 3, "renaissance": 3, "horizons": 2, "lr": 4, "rn": -1 } }
+    ]
+  },
+  {
+    "id": "q_eu_09",
+    "themeId": "theme_europe",
+    "importance": 3,
+    "text": "La France doit-elle augmenter son budget d'aide publique au développement ?",
+    "options": [
+      { "id": "q_eu_09_o1", "text": "Oui, atteindre l'objectif de 0,7 % du RNB comme engagé", "positions": { "lfi": 3, "ps": 4, "eelv": 4, "renaissance": 2, "horizons": 1, "lr": -1, "rn": -3 } },
+      { "id": "q_eu_09_o2", "text": "Maintenir le niveau actuel mais mieux le cibler", "positions": { "lfi": 0, "ps": 2, "eelv": 2, "renaissance": 3, "horizons": 3, "lr": 2, "rn": -1 } },
+      { "id": "q_eu_09_o3", "text": "Réduire l'aide extérieure pour financer des priorités nationales", "positions": { "lfi": -2, "ps": -2, "eelv": -3, "renaissance": -1, "horizons": -1, "lr": 2, "rn": 4 } }
+    ]
+  },
+  {
+    "id": "q_eu_10",
+    "themeId": "theme_europe",
+    "importance": 3,
+    "text": "Faut-il soutenir l'adhésion de l'Ukraine et des pays des Balkans à l'Union européenne ?",
+    "options": [
+      { "id": "q_eu_10_o1", "text": "Oui, l'élargissement renforce la paix et la prospérité européennes", "positions": { "lfi": 1, "ps": 4, "eelv": 4, "renaissance": 4, "horizons": 3, "lr": 3, "rn": -3 } },
+      { "id": "q_eu_10_o2", "text": "Oui pour l'Ukraine, mais progressivement selon les réformes accomplies", "positions": { "lfi": 0, "ps": 3, "eelv": 3, "renaissance": 4, "horizons": 3, "lr": 3, "rn": -1 } },
+      { "id": "q_eu_10_o3", "text": "Non, l'UE est trop grande, mieux vaut consolider avant d'élargir", "positions": { "lfi": 2, "ps": -1, "eelv": -1, "renaissance": -1, "horizons": 0, "lr": 1, "rn": 3 } }
+    ]
+  },
+
+  {
+    "id": "q_hous_01",
+    "themeId": "theme_housing",
+    "importance": 1,
+    "text": "Faut-il imposer un encadrement strict des loyers dans les grandes villes ?",
+    "options": [
+      { "id": "q_hous_01_o1", "text": "Oui, bloquer les loyers pour mettre fin à la spéculation immobilière", "positions": { "lfi": 5, "ps": 3, "eelv": 4, "renaissance": -1, "horizons": -1, "lr": -3, "rn": 2 } },
+      { "id": "q_hous_01_o2", "text": "Encadrer les loyers dans les zones très tendues uniquement", "positions": { "lfi": 2, "ps": 4, "eelv": 3, "renaissance": 2, "horizons": 2, "lr": -1, "rn": 2 } },
+      { "id": "q_hous_01_o3", "text": "Non, l'encadrement décourage la construction et l'offre locative", "positions": { "lfi": -3, "ps": -1, "eelv": -2, "renaissance": 3, "horizons": 3, "lr": 4, "rn": -1 } }
+    ]
+  },
+  {
+    "id": "q_hous_02",
+    "themeId": "theme_housing",
+    "importance": 1,
+    "text": "La production de logements sociaux (HLM) doit-elle être fortement accrue ?",
+    "options": [
+      { "id": "q_hous_02_o1", "text": "Oui, avec un programme massif de construction de logements sociaux", "positions": { "lfi": 5, "ps": 4, "eelv": 4, "renaissance": 2, "horizons": 1, "lr": -1, "rn": -2 } },
+      { "id": "q_hous_02_o2", "text": "Oui, mais en diversifiant (accession sociale, coopératives...)", "positions": { "lfi": 2, "ps": 3, "eelv": 3, "renaissance": 3, "horizons": 3, "lr": 2, "rn": 1 } },
+      { "id": "q_hous_02_o3", "text": "Non, favoriser la propriété privée et la construction libre", "positions": { "lfi": -3, "ps": -1, "eelv": -2, "renaissance": 3, "horizons": 3, "lr": 4, "rn": 2 } }
+    ]
+  },
+  {
+    "id": "q_hous_03",
+    "themeId": "theme_housing",
+    "importance": 2,
+    "text": "Faut-il mieux réguler les plateformes de location touristique de type Airbnb ?",
+    "options": [
+      { "id": "q_hous_03_o1", "text": "Oui, limiter fortement le nombre de jours de location touristique", "positions": { "lfi": 4, "ps": 3, "eelv": 4, "renaissance": 1, "horizons": 1, "lr": -1, "rn": 1 } },
+      { "id": "q_hous_03_o2", "text": "Renforcer les contrôles et la fiscalité sans interdire", "positions": { "lfi": 2, "ps": 4, "eelv": 3, "renaissance": 3, "horizons": 3, "lr": 2, "rn": 2 } },
+      { "id": "q_hous_03_o3", "text": "Non, ces plateformes créent des revenus pour les propriétaires", "positions": { "lfi": -2, "ps": -1, "eelv": -2, "renaissance": 3, "horizons": 3, "lr": 4, "rn": 2 } }
+    ]
+  },
+  {
+    "id": "q_hous_04",
+    "themeId": "theme_housing",
+    "importance": 2,
+    "text": "Le Prêt à Taux Zéro (PTZ) pour les primo-accédants doit-il être élargi ?",
+    "options": [
+      { "id": "q_hous_04_o1", "text": "Oui, l'élargir à tout le territoire et à tous les revenus", "positions": { "lfi": 2, "ps": 3, "eelv": 2, "renaissance": 4, "horizons": 4, "lr": 4, "rn": 4 } },
+      { "id": "q_hous_04_o2", "text": "Le maintenir et l'améliorer pour les classes moyennes", "positions": { "lfi": 1, "ps": 3, "eelv": 2, "renaissance": 4, "horizons": 4, "lr": 4, "rn": 4 } },
+      { "id": "q_hous_04_o3", "text": "Remplacer le PTZ par d'autres formes d'aide plus équitables", "positions": { "lfi": 3, "ps": 2, "eelv": 2, "renaissance": 1, "horizons": 1, "lr": 0, "rn": 1 } }
+    ]
+  },
+  {
+    "id": "q_hous_05",
+    "themeId": "theme_housing",
+    "importance": 2,
+    "text": "Faut-il supprimer la taxe foncière pour les primo-accédants pendant 5 ans ?",
+    "options": [
+      { "id": "q_hous_05_o1", "text": "Oui, pour faciliter l'accession à la propriété des ménages modestes", "positions": { "lfi": 2, "ps": 2, "eelv": 1, "renaissance": 3, "horizons": 3, "lr": 3, "rn": 5 } },
+      { "id": "q_hous_05_o2", "text": "Préférer d'autres aides plus efficaces (subventions directes)", "positions": { "lfi": 2, "ps": 2, "eelv": 2, "renaissance": 2, "horizons": 2, "lr": 2, "rn": 1 } },
+      { "id": "q_hous_05_o3", "text": "Non, la taxe foncière finance les collectivités locales essentielles", "positions": { "lfi": 2, "ps": 3, "eelv": 3, "renaissance": 1, "horizons": 1, "lr": 0, "rn": -1 } }
+    ]
+  },
+  {
+    "id": "q_hous_06",
+    "themeId": "theme_housing",
+    "importance": 3,
+    "text": "La règle du Zéro Artificialisation Nette (ZAN) des sols doit-elle être maintenue ?",
+    "options": [
+      { "id": "q_hous_06_o1", "text": "Oui, protéger les terres agricoles et naturelles est une priorité absolue", "positions": { "lfi": 3, "ps": 3, "eelv": 5, "renaissance": 2, "horizons": 1, "lr": -1, "rn": -2 } },
+      { "id": "q_hous_06_o2", "text": "Oui, mais avec plus de souplesse pour les petites communes", "positions": { "lfi": 1, "ps": 3, "eelv": 3, "renaissance": 3, "horizons": 3, "lr": 2, "rn": 1 } },
+      { "id": "q_hous_06_o3", "text": "Non, la réformer pour permettre de construire davantage", "positions": { "lfi": -2, "ps": -1, "eelv": -4, "renaissance": 2, "horizons": 2, "lr": 4, "rn": 3 } }
+    ]
+  },
+  {
+    "id": "q_hous_07",
+    "themeId": "theme_housing",
+    "importance": 3,
+    "text": "L'État doit-il pouvoir réquisitionner les logements vacants appartenant à des propriétaires privés ?",
+    "options": [
+      { "id": "q_hous_07_o1", "text": "Oui, réquisitionner les logements vacants depuis plus de 2 ans", "positions": { "lfi": 5, "ps": 2, "eelv": 4, "renaissance": -2, "horizons": -2, "lr": -4, "rn": -1 } },
+      { "id": "q_hous_07_o2", "text": "Taxer fortement les logements vacants pour inciter à louer", "positions": { "lfi": 3, "ps": 4, "eelv": 4, "renaissance": 2, "horizons": 2, "lr": 0, "rn": 1 } },
+      { "id": "q_hous_07_o3", "text": "Non, c'est une atteinte au droit de propriété", "positions": { "lfi": -4, "ps": -2, "eelv": -3, "renaissance": 3, "horizons": 3, "lr": 5, "rn": 2 } }
+    ]
+  },
+
+  {
+    "id": "q_dig_01",
+    "themeId": "theme_digital",
+    "importance": 1,
+    "text": "Faut-il réguler fortement les grandes plateformes numériques (GAFAM) ?",
+    "options": [
+      { "id": "q_dig_01_o1", "text": "Oui, démanteler les monopoles et imposer l'interopérabilité", "positions": { "lfi": 5, "ps": 3, "eelv": 4, "renaissance": 2, "horizons": 1, "lr": -1, "rn": -1 } },
+      { "id": "q_dig_01_o2", "text": "Oui, appliquer et renforcer le Digital Markets Act européen", "positions": { "lfi": 3, "ps": 4, "eelv": 4, "renaissance": 4, "horizons": 3, "lr": 2, "rn": 1 } },
+      { "id": "q_dig_01_o3", "text": "Non, une régulation trop forte freinerait l'innovation", "positions": { "lfi": -3, "ps": -1, "eelv": -2, "renaissance": 2, "horizons": 2, "lr": 3, "rn": 2 } }
+    ]
+  },
+  {
+    "id": "q_dig_02",
+    "themeId": "theme_digital",
+    "importance": 1,
+    "text": "La France doit-elle développer une souveraineté numérique (cloud, OS, IA souverains) ?",
+    "options": [
+      { "id": "q_dig_02_o1", "text": "Oui, créer des alternatives publiques françaises ou européennes", "positions": { "lfi": 5, "ps": 3, "eelv": 4, "renaissance": 4, "horizons": 4, "lr": 3, "rn": 4 } },
+      { "id": "q_dig_02_o2", "text": "Oui, via une souveraineté européenne plutôt que strictement nationale", "positions": { "lfi": 2, "ps": 4, "eelv": 4, "renaissance": 5, "horizons": 4, "lr": 3, "rn": 2 } },
+      { "id": "q_dig_02_o3", "text": "Non, mieux vaut s'appuyer sur les solutions américaines existantes", "positions": { "lfi": -3, "ps": -1, "eelv": -2, "renaissance": 1, "horizons": 1, "lr": 1, "rn": -1 } }
+    ]
+  },
+  {
+    "id": "q_dig_03",
+    "themeId": "theme_digital",
+    "importance": 2,
+    "text": "L'intelligence artificielle doit-elle être intégrée dans les services publics (justice, santé, éducation) ?",
+    "options": [
+      { "id": "q_dig_03_o1", "text": "Oui, sous contrôle humain strict et avec des garanties éthiques", "positions": { "lfi": 2, "ps": 3, "eelv": 3, "renaissance": 5, "horizons": 4, "lr": 3, "rn": 3 } },
+      { "id": "q_dig_03_o2", "text": "Uniquement en aide à la décision, jamais en décision autonome", "positions": { "lfi": 3, "ps": 4, "eelv": 4, "renaissance": 4, "horizons": 4, "lr": 3, "rn": 2 } },
+      { "id": "q_dig_03_o3", "text": "Non, les décisions publiques doivent rester humaines et responsables", "positions": { "lfi": 3, "ps": 1, "eelv": 2, "renaissance": -1, "horizons": -1, "lr": 0, "rn": 1 } }
+    ]
+  },
+  {
+    "id": "q_dig_04",
+    "themeId": "theme_digital",
+    "importance": 2,
+    "text": "L'État doit-il financer une formation massive aux métiers du numérique et de l'IA ?",
+    "options": [
+      { "id": "q_dig_04_o1", "text": "Oui, un grand plan national de reconversion et de formation numérique", "positions": { "lfi": 3, "ps": 3, "eelv": 3, "renaissance": 5, "horizons": 4, "lr": 3, "rn": 3 } },
+      { "id": "q_dig_04_o2", "text": "Oui, en partenariat avec les entreprises et les écoles", "positions": { "lfi": 1, "ps": 3, "eelv": 2, "renaissance": 5, "horizons": 4, "lr": 4, "rn": 3 } },
+      { "id": "q_dig_04_o3", "text": "Le marché et les entreprises forment mieux que l'État", "positions": { "lfi": -3, "ps": -1, "eelv": -2, "renaissance": 2, "horizons": 2, "lr": 3, "rn": 1 } }
+    ]
+  },
+  {
+    "id": "q_dig_05",
+    "themeId": "theme_digital",
+    "importance": 3,
+    "text": "Les réseaux sociaux doivent-ils être davantage responsabilisés pour modérer les contenus haineux ?",
+    "options": [
+      { "id": "q_dig_05_o1", "text": "Oui, avec une responsabilité légale forte et des amendes dissuasives", "positions": { "lfi": 3, "ps": 4, "eelv": 4, "renaissance": 3, "horizons": 3, "lr": 2, "rn": -2 } },
+      { "id": "q_dig_05_o2", "text": "Oui, via le Digital Services Act européen correctement appliqué", "positions": { "lfi": 2, "ps": 4, "eelv": 4, "renaissance": 4, "horizons": 4, "lr": 3, "rn": -1 } },
+      { "id": "q_dig_05_o3", "text": "Non, la liberté d'expression ne doit pas être bridée par des algorithmes", "positions": { "lfi": 1, "ps": -2, "eelv": -2, "renaissance": -1, "horizons": -1, "lr": 2, "rn": 4 } }
+    ]
+  }
+]

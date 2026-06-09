@@ -1,0 +1,75 @@
+<div class="home-container">
+  <div class="hero">
+    <h1>Trouvez votre candidat 🇫🇷</h1>
+    <p>Un quiz pour découvrir quel candidat 2027 correspond le mieux à vos valeurs politiques</p>
+    <div class="info">
+      <div class="info-item">
+        <span class="icon">🗳️</span>
+        <div class="info-text">
+          <strong>{{ candidatesCount }} candidats</strong>
+          <p>comparés avec vous</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <span class="icon">🎯</span>
+        <div class="info-text">
+          <strong>{{ themesCount }} thèmes</strong>
+          <p>de société au choix</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <span class="icon">📝</span>
+        <div class="info-text">
+          <strong>Pas de bonne réponse</strong>
+          <p>seulement vos convictions</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mode-section">
+    <h2>Choisissez la durée du quiz</h2>
+    <div class="mode-cards">
+      <div
+        *ngFor="let mode of quizModes"
+        class="mode-card"
+        [class.selected]="selectedLength === mode.length"
+        (click)="selectMode(mode.length)"
+      >
+        <div class="mode-icon">{{ mode.icon }}</div>
+        <div class="mode-title">{{ mode.label }}</div>
+        <div class="mode-questions">{{ mode.questions }} questions</div>
+        <div class="mode-duration">{{ mode.duration }}</div>
+        <div class="mode-description">{{ mode.description }}</div>
+      </div>
+    </div>
+
+    <button class="btn btn-primary" (click)="startQuiz()">
+      Commencer le quiz →
+    </button>
+    <p class="disclaimer">
+      Ce quiz est à titre informatif. Les résultats reflètent une analyse des positions politiques déclarées des partis pour 2027.
+    </p>
+  </div>
+
+  <div class="about-section">
+    <h2>Comment ça marche ?</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <h3>Choisissez les thèmes</h3>
+        <p>Sélectionnez les sujets politiques qui vous intéressent le plus</p>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <h3>Répondez aux questions</h3>
+        <p>Exprimez vos positions sur les enjeux de la présidentielle 2027</p>
+      </div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <h3>Découvrez vos affinités</h3>
+        <p>Obtenez votre score de compatibilité avec chaque candidat</p>
+      </div>
+    </div>
+  </div>
+</div>

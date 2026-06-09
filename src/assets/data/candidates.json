@@ -1,0 +1,51 @@
+[
+  {
+    "id": "lfi",
+    "name": "Jean-Luc Mélenchon",
+    "party": "La France Insoumise",
+    "color": "#CC0000",
+    "description": "Gauche radicale, planification économique, sortie de l'OTAN, VIe République"
+  },
+  {
+    "id": "ps",
+    "name": "Raphaël Glucksmann",
+    "party": "Parti Socialiste / Place Publique",
+    "color": "#E91E8C",
+    "description": "Social-démocratie européenne, pro-OTAN, réformisme par le dialogue social"
+  },
+  {
+    "id": "eelv",
+    "name": "Marine Tondelier",
+    "party": "Les Écologistes",
+    "color": "#34A853",
+    "description": "Écologie politique, sortie du nucléaire, fédéralisme européen, post-croissance"
+  },
+  {
+    "id": "renaissance",
+    "name": "Gabriel Attal",
+    "party": "Renaissance",
+    "color": "#0068A8",
+    "description": "Centre libéral, relance nucléaire, souveraineté européenne, IA et innovation"
+  },
+  {
+    "id": "horizons",
+    "name": "Édouard Philippe",
+    "party": "Horizons",
+    "color": "#00BCD4",
+    "description": "Centre-droit pragmatique, compétitivité, 5e branche autonomie, retraite à 67 ans"
+  },
+  {
+    "id": "lr",
+    "name": "Bruno Retailleau",
+    "party": "Les Républicains",
+    "color": "#003087",
+    "description": "Droite conservatrice, rupture sociale, contrôle strict de l'immigration, autorité de l'État"
+  },
+  {
+    "id": "rn",
+    "name": "Jordan Bardella",
+    "party": "Rassemblement National",
+    "color": "#001489",
+    "description": "Nationalisme, préférence nationale, droit du sol supprimé, souveraineté vs institutions européennes"
+  }
+]

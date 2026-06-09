@@ -1,0 +1,103 @@
+<div class="results-container">
+  <div class="results-header">
+    <h1>🎉 Vos résultats</h1>
+    <p>Voici votre compatibilité avec chaque candidat</p>
+
+    <div class="stats">
+      <div class="stat-item">
+        <span class="label">Questions répondues:</span>
+        <span class="value">{{ numberOfAnswers }}</span>
+      </div>
+      <div class="stat-item">
+        <span class="label">Temps écoulé:</span>
+        <span class="value">{{ formatTime(totalTime) }}</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="results-main">
+    <!-- Score principal (gagnant) -->
+    <div *ngIf="getTopScore()" class="top-result">
+      <div class="medal">🥇</div>
+      <h2>{{ getTopScore()?.candidateName }}</h2>
+      <p class="party">{{ getTopScore()?.party }}</p>
+      <div class="score-large">
+        <div class="percentage">{{ getTopScore()?.percentage }}%</div>
+        <div class="score-description">Compatibilité</div>
+      </div>
+    </div>
+
+    <!-- Tous les résultats -->
+    <div class="all-results">
+      <h3>Classement complet</h3>
+      <div class="results-list">
+        <div
+          *ngFor="let result of scores; let i = index"
+          class="result-item"
+          [class.top-result-item]="i === 0"
+          [class.expanded]="expandedCandidateId === result.candidateId"
+        >
+          <div class="result-header" (click)="toggleCandidate(result.candidateId)">
+            <div class="result-rank">
+              <span *ngIf="i === 0" class="medal-inline">🥇</span>
+              <span *ngIf="i === 1" class="medal-inline">🥈</span>
+              <span *ngIf="i === 2" class="medal-inline">🥉</span>
+              <span *ngIf="i >= 3" class="rank-number">{{ i + 1 }}</span>
+            </div>
+
+            <div class="result-info">
+              <h4>{{ result.candidateName }}</h4>
+              <p class="result-party">{{ result.party }}</p>
+            </div>
+
+            <div class="result-score">
+              <div class="score-bar-container">
+                <div
+                  class="score-bar"
+                  [class]="getScoreClass(result.percentage)"
+                  [style.width.%]="result.percentage"
+                ></div>
+              </div>
+              <div class="percentage-text">{{ result.percentage }}%</div>
+            </div>
+
+            <div class="result-toggle" [class.open]="expandedCandidateId === result.candidateId">▼</div>
+          </div>
+
+          <div class="result-details" *ngIf="expandedCandidateId === result.candidateId">
+            <div class="details-summary">
+              <span class="summary-chip agree">✓ {{ countByAlignment(getDetails(result.candidateId), 'agree') }} en accord</span>
+              <span class="summary-chip neutral" *ngIf="countByAlignment(getDetails(result.candidateId), 'neutral') > 0">— {{ countByAlignment(getDetails(result.candidateId), 'neutral') }} neutre</span>
+              <span class="summary-chip disagree">✗ {{ countByAlignment(getDetails(result.candidateId), 'disagree') }} en désaccord</span>
+            </div>
+
+            <div class="details-list">
+              <div
+                *ngFor="let detail of getDetails(result.candidateId)"
+                class="detail-row"
+                [class]="alignmentClass(detail.position)"
+              >
+                <div class="detail-alignment">{{ alignmentLabel(detail.position) }}</div>
+                <div class="detail-content">
+                  <div class="detail-question">{{ detail.questionText }}</div>
+                  <div class="detail-answer">Votre réponse : {{ detail.userOptionText }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="results-footer">
+    <button class="btn btn-primary" (click)="startAgain()">
+      Recommencer le quiz
+    </button>
+    <p class="disclaimer">
+      ⚠️ Ce quiz est à titre informatif. Les résultats sont basés sur une simplification des
+      positions politiques. Consultez directement les programmes des candidats pour une
+      information complète.
+    </p>
+  </div>
+</div>

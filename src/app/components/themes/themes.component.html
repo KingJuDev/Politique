@@ -1,0 +1,50 @@
+<div class="themes-container">
+  <div class="header">
+    <button class="btn-back" (click)="goBack()">← Retour</button>
+    <h1>Sélectionnez les thèmes 🎯</h1>
+    <p>Choisissez au moins {{ minThemesRequired }} thèmes pour continuer</p>
+  </div>
+
+  <div class="themes-grid">
+    <div
+      *ngFor="let theme of themes"
+      class="theme-card"
+      [class.selected]="isThemeSelected(theme.id)"
+      (click)="toggleTheme(theme.id)"
+    >
+      <div class="theme-icon">{{ theme.icon }}</div>
+      <h3>{{ theme.name }}</h3>
+      <p>{{ theme.description }}</p>
+      <div class="theme-selection">
+        <input
+          type="checkbox"
+          [checked]="isThemeSelected(theme.id)"
+          [id]="'theme_' + theme.id"
+          readonly
+        />
+        <label [for]="'theme_' + theme.id"></label>
+      </div>
+    </div>
+  </div>
+
+  <div class="summary">
+    <div class="summary-content">
+      <div class="summary-item">
+        <strong>Thèmes sélectionnés:</strong>
+        <span class="count">{{ selectedThemes.size }}/{{ themes.length }}</span>
+      </div>
+      <div class="summary-item">
+        <strong>Temps estimé:</strong>
+        <span class="time">{{ secondsToMinutes(getEstimatedTime()) }} min</span>
+      </div>
+    </div>
+
+    <button
+      class="btn btn-primary"
+      [disabled]="selectedThemes.size < minThemesRequired"
+      (click)="continueToQuestions()"
+    >
+      Continuer
+    </button>
+  </div>
+</div>

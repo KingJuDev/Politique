@@ -1,0 +1,65 @@
+[
+  {
+    "id": "theme_economy",
+    "name": "Économie & Emploi",
+    "icon": "💼",
+    "description": "SMIC, retraites, fiscalité, temps de travail, protections sociales",
+    "estimatedTime": 300
+  },
+  {
+    "id": "theme_ecology",
+    "name": "Écologie & Environnement",
+    "icon": "🌍",
+    "description": "Nucléaire, climat, agriculture, biodiversité et transition énergétique",
+    "estimatedTime": 240
+  },
+  {
+    "id": "theme_security",
+    "name": "Sécurité & Immigration",
+    "icon": "🛡️",
+    "description": "Droit du sol, frontières, police, asile et préférence nationale",
+    "estimatedTime": 300
+  },
+  {
+    "id": "theme_health",
+    "name": "Santé & Protection sociale",
+    "icon": "⚕️",
+    "description": "Hôpital public, remboursements, déserts médicaux et autonomie des seniors",
+    "estimatedTime": 200
+  },
+  {
+    "id": "theme_education",
+    "name": "Éducation",
+    "icon": "🎓",
+    "description": "École publique et privée, université, apprentissage et laïcité",
+    "estimatedTime": 160
+  },
+  {
+    "id": "theme_institutions",
+    "name": "Institutions & Démocratie",
+    "icon": "🏛️",
+    "description": "VIe République, proportionnelle, RIC et décentralisation",
+    "estimatedTime": 160
+  },
+  {
+    "id": "theme_europe",
+    "name": "Europe & International",
+    "icon": "🇪🇺",
+    "description": "OTAN, Ukraine, intégration européenne et diplomatie",
+    "estimatedTime": 200
+  },
+  {
+    "id": "theme_housing",
+    "name": "Logement",
+    "icon": "🏠",
+    "description": "Loyers, logement social, propriété et régulation du marché immobilier",
+    "estimatedTime": 140
+  },
+  {
+    "id": "theme_digital",
+    "name": "Numérique & IA",
+    "icon": "💻",
+    "description": "Régulation des GAFAM, souveraineté numérique et intelligence artificielle",
+    "estimatedTime": 100
+  }
+]

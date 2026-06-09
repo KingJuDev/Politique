@@ -1,0 +1,72 @@
+<div class="questions-container">
+  <div class="header">
+    <div class="header-top">
+      <button class="btn-close" (click)="quit()">✕</button>
+      <div class="timer">⏱️ {{ elapsedTime }}s</div>
+    </div>
+
+    <div class="progress-section">
+      <div class="progress-bar">
+        <div class="progress-fill" [style.width.%]="getProgress()"></div>
+      </div>
+      <div class="progress-text">
+        Question {{ currentQuestionIndex + 1 }} / {{ allQuestions.length }}
+      </div>
+    </div>
+  </div>
+
+  <div class="question-content" *ngIf="currentQuestion">
+    <h2>{{ currentQuestion.text }}</h2>
+
+    <div class="options">
+      <button
+        *ngFor="let option of currentQuestion.options"
+        class="option-button"
+        [class.selected]="getSelectedAnswer() === option.id"
+        (click)="selectAnswer(option.id)"
+      >
+        <span class="option-text">{{ option.text }}</span>
+        <span class="option-indicator"></span>
+      </button>
+    </div>
+
+    <div class="skip-section">
+      <button
+        class="btn-skip"
+        [class.active]="isSkipped()"
+        (click)="skipQuestion()"
+      >
+        Sans avis
+      </button>
+    </div>
+  </div>
+
+  <div class="navigation">
+    <button
+      class="btn btn-secondary"
+      (click)="goBack()"
+      [disabled]="currentQuestionIndex === 0"
+    >
+      ← Précédent
+    </button>
+
+    <div class="nav-spacer"></div>
+
+    <button
+      *ngIf="currentQuestionIndex === allQuestions.length - 1"
+      class="btn btn-primary"
+      [disabled]="!isAnswered()"
+      (click)="nextQuestion()"
+    >
+      Voir les résultats
+    </button>
+    <button
+      *ngIf="currentQuestionIndex < allQuestions.length - 1"
+      class="btn btn-primary"
+      [disabled]="!isAnswered()"
+      (click)="nextQuestion()"
+    >
+      Suivant →
+    </button>
+  </div>
+</div>
